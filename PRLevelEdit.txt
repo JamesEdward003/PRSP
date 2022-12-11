@@ -1,0 +1,60 @@
+mec_tnk_t72
+cpname_khamisiyah_coop64_mecmain_tank
+Object.absolutePosition -969.77/41.20/1367.95
+Object.rotation 180.000/0.000/0.000
+cpname_khamisiyah_coop64_mecmain_0_24
+Object.absolutePosition -969.77/41.20/1377.95
+Object.rotation 180.000/0.000/0.000
+cpname_khamisiyah_coop64_mecmain_1_0
+Object.absolutePosition -969.77/41.20/1387.95
+Object.rotation 180.000/0.000/0.000
+cpname_khamisiyah_coop64_mecmain_1_1
+Object.absolutePosition -969.77/41.20/1397.95
+Object.rotation 180.000/0.000/0.000
+cpname_khamisiyah_coop64_mecmain_1_2
+
+cpname_khamisiyah_coop64_mecmain_1_3
+mec_ifv_bmp3
+cpname_khamisiyah_coop64_mecmain_bmp
+Object.absolutePosition -969.77/41.20/1407.95
+Object.rotation 180.000/0.000/0.000
+cpname_khamisiyah_coop64_mecmain_0_25
+Object.absolutePosition -969.77/41.20/1417.95
+Object.rotation 180.000/0.000/0.000
+cpname_khamisiyah_coop64_mecmain_2_0
+cpname_khamisiyah_coop64_mecmain_2_1
+mec_jep_uaz_mg
+cpname_khamisiyah_coop64_mecmain_jeep
+cpname_khamisiyah_coop64_mecmain_1_4
+cpname_khamisiyah_coop64_mecmain_3_0
+cpname_khamisiyah_coop64_mecmain_3_1
+mec_trk_logistics
+cpname_khamisiyah_coop64_mecmain_logi
+cpname_khamisiyah_coop64_mecmain_2_2
+mec_trk_support
+cpname_khamisiyah_coop64_mecmain_truck
+cpname_khamisiyah_coop64_mecmain_3_2
+
+   rem [ObjectSpawner: cpname_khamisiyah_coop64_chemfacil_zpu4]
+   Object.create cpname_khamisiyah_coop64_chemfacil_zpu4
+   Object.absolutePosition -61.478/46.001/103.993
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 504
+   Object.layer 5
+   
+rem *** service_station ***
+Object.create service_station
+Object.absolutePosition -918.433/52.226/503.339
+Object.rotation 22.0/0.0/0.0
+
+rem *** service_station_roofwalls ***
+Object.create service_station_roofwalls
+Object.absolutePosition -918.433/52.226/503.339
+Object.rotation 22.0/0.0/0.0
+
+
+{for "_i" from count waypoints _x - 1 to 0 step -1 do { deleteWaypoint [_x, _i];}} forEach [F16,APACHE_PMC,FZ,FZ_NR,AH64D_US,APACHE_BAF];
+
+
+
+
