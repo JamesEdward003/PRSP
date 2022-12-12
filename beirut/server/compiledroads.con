@@ -1,0 +1,584 @@
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r1_compiled.mesh
+object.absoluteposition 525.02/20/-528.815
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r2_compiled.mesh
+object.absoluteposition 898.352/20/-732.041
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r3_compiled.mesh
+object.absoluteposition 633.468/20/-638.308
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r4_compiled.mesh
+object.absoluteposition 678.63/20/-555.941
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r5_compiled.mesh
+object.absoluteposition 566.699/20/-421.792
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r6_compiled.mesh
+object.absoluteposition 693.86/20/-350.462
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\h1_compiled.mesh
+object.absoluteposition 851.156/20/-457.02
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\h2_compiled.mesh
+object.absoluteposition 845.849/20/-471.078
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\h3_compiled.mesh
+object.absoluteposition 634.54/20/-379.956
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\h4_compiled.mesh
+object.absoluteposition 628.894/20/-393.756
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\h5_compiled.mesh
+object.absoluteposition 540.217/20/-336.908
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\h6_compiled.mesh
+object.absoluteposition 533.525/20.0002/-350.309
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\h7_compiled.mesh
+object.absoluteposition 465.122/20/-300.601
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\h8_compiled.mesh
+object.absoluteposition 458.009/20/-313.72
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\h9_compiled.mesh
+object.absoluteposition 232.209/29.29/-191.238
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\h10_compiled.mesh
+object.absoluteposition 227.028/29.2652/-203.481
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r7_compiled.mesh
+object.absoluteposition 501.872/20/-292.511
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r8_compiled.mesh
+object.absoluteposition 551.481/20/-274.044
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r9_compiled.mesh
+object.absoluteposition 592.394/20/-248.208
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r10_compiled.mesh
+object.absoluteposition 553.57/20/-230.868
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r11_compiled.mesh
+object.absoluteposition 524.672/20/-247.138
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r12_compiled.mesh
+object.absoluteposition 467.057/20/-428.883
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r13_compiled.mesh
+object.absoluteposition 330.584/20/-364.967
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r14_compiled.mesh
+object.absoluteposition 372.091/20/-432.76
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r15_compiled.mesh
+object.absoluteposition 337.38/20/-502.848
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r16_compiled.mesh
+object.absoluteposition 290.927/20/-442.97
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r17_compiled.mesh
+object.absoluteposition -701.403/22.3307/-215.163
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r18_compiled.mesh
+object.absoluteposition -477.661/31.3743/-200.83
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r19_compiled.mesh
+object.absoluteposition -263.985/33.5983/-182.05
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r20_compiled.mesh
+object.absoluteposition -174.495/24.4159/-22.4307
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\h11_compiled.mesh
+object.absoluteposition -959.539/20/148.841
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\h12_compiled.mesh
+object.absoluteposition -964.137/20/134.11
+
+object.create Muttrah_road_nocurb
+object.geometry.loadMesh Levels\beirut\Roads\r22_compiled.mesh
+object.absoluteposition -854.708/20/175.163
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\h13_compiled.mesh
+object.absoluteposition -527.571/31.1165/83.9173
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r23_compiled.mesh
+object.absoluteposition -856.685/19.9999/-753.55
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r24_compiled.mesh
+object.absoluteposition -697.416/20/-461.028
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r25_compiled.mesh
+object.absoluteposition -565.64/20/-550.816
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\rondo1_compiled.mesh
+object.absoluteposition -680.975/20/-551.466
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r26_compiled.mesh
+object.absoluteposition 299.941/20/-521.443
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r27_compiled.mesh
+object.absoluteposition 239.325/20/-489.064
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r28_compiled.mesh
+object.absoluteposition 178.612/20/-449.706
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r29_compiled.mesh
+object.absoluteposition 132.348/20/-419.835
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r30_compiled.mesh
+object.absoluteposition 217.492/20/-438.032
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r31_compiled.mesh
+object.absoluteposition 252.43/20/-374.634
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r32_compiled.mesh
+object.absoluteposition 20.1219/20.0024/-454.457
+
+object.create dirtroad01_xpack
+object.geometry.loadMesh Levels\beirut\Roads\dirtroad1_compiled.mesh
+object.absoluteposition -510.771/20/-617.815
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r33_compiled.mesh
+object.absoluteposition -446.077/20/-518.413
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r34_compiled.mesh
+object.absoluteposition -382.106/20/-430.022
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r35_compiled.mesh
+object.absoluteposition -252.458/23.8886/-328.99
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r36_compiled.mesh
+object.absoluteposition -211.577/31.8984/-268.127
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r37_compiled.mesh
+object.absoluteposition -188.636/25.5225/-336.503
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r38_compiled.mesh
+object.absoluteposition -235.283/20/-389.486
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r39_compiled.mesh
+object.absoluteposition -346.269/20/-622.831
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r40_compiled.mesh
+object.absoluteposition -248.785/20/-630.912
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r41_compiled.mesh
+object.absoluteposition -306.396/20/-835.957
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r42_compiled.mesh
+object.absoluteposition -459.124/20/-589.982
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r43_compiled.mesh
+object.absoluteposition -183.246/20/-412.921
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r44_compiled.mesh
+object.absoluteposition -320.572/20/-491.229
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r45_compiled.mesh
+object.absoluteposition -193.679/20/-450.104
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r46_compiled.mesh
+object.absoluteposition -211.938/20/-509.506
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r47_compiled.mesh
+object.absoluteposition -233.012/20/-580.404
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r48_compiled.mesh
+object.absoluteposition -260.397/20/-540.262
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r49_compiled.mesh
+object.absoluteposition 458.067/20/-669.066
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r50_compiled.mesh
+object.absoluteposition 430.728/20/-565.988
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r51_compiled.mesh
+object.absoluteposition 348.936/20/-542.267
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\rondo2_compiled.mesh
+object.absoluteposition 345.757/20/-623.376
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r52_compiled.mesh
+object.absoluteposition 363.5/20/-644.694
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r53_compiled.mesh
+object.absoluteposition 365.024/20/-586.358
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r54_compiled.mesh
+object.absoluteposition 297.624/20/-685.922
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r55_compiled.mesh
+object.absoluteposition 210.418/20/-681.915
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r56_compiled.mesh
+object.absoluteposition 168.425/20/-699.751
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r57_compiled.mesh
+object.absoluteposition 174.602/20/-651.773
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r58_compiled.mesh
+object.absoluteposition 198.599/20/-622.008
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r59_compiled.mesh
+object.absoluteposition 112.892/20/-621.382
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r60_compiled.mesh
+object.absoluteposition 258.62/20/-561.916
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r61_compiled.mesh
+object.absoluteposition 295.818/20/-622.544
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r62_compiled.mesh
+object.absoluteposition -303.385/20/-558.585
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r63_compiled.mesh
+object.absoluteposition -277.603/20/-599.019
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r64_compiled.mesh
+object.absoluteposition -218.101/20/-617.691
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r65_compiled.mesh
+object.absoluteposition -186.868/20/-589.251
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r66_compiled.mesh
+object.absoluteposition -152.528/20/-560.781
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r67_compiled.mesh
+object.absoluteposition -70.2952/20/-544.026
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r68_compiled.mesh
+object.absoluteposition 12.4051/20/-607.455
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r69_compiled.mesh
+object.absoluteposition -3.27147/20/-813.439
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r70_compiled.mesh
+object.absoluteposition -87.1352/20/-602.732
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\rondo3_compiled.mesh
+object.absoluteposition -119.729/20/-602.486
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r71_compiled.mesh
+object.absoluteposition -122.714/20/-580.866
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r72_compiled.mesh
+object.absoluteposition -158.867/20/-618.498
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r73_compiled.mesh
+object.absoluteposition -481.54/20.1192/176.087
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r74_compiled.mesh
+object.absoluteposition -119.438/20/-514.512
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r75_compiled.mesh
+object.absoluteposition -90.8845/20/-471.193
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r76_compiled.mesh
+object.absoluteposition -103.29/20/-426.475
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r77_compiled.mesh
+object.absoluteposition -145.806/20/-396.834
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r78_compiled.mesh
+object.absoluteposition -141.242/20/-449.2
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r79_compiled.mesh
+object.absoluteposition 221.465/20/-313.332
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r80_compiled.mesh
+object.absoluteposition 283.756/20/-308.072
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r81_compiled.mesh
+object.absoluteposition 354.969/20/-311.368
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r82_compiled.mesh
+object.absoluteposition 400.013/20/-365.191
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r83_compiled.mesh
+object.absoluteposition 421.695/20/-320.286
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r84_compiled.mesh
+object.absoluteposition 210.603/20/-397.276
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r85_compiled.mesh
+object.absoluteposition 173.082/20/-409.594
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r86_compiled.mesh
+object.absoluteposition 71.9069/20/-382.145
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r87_compiled.mesh
+object.absoluteposition -21.4311/20.0005/-417.923
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r88_compiled.mesh
+object.absoluteposition 6.07092/20/-339.716
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r89_compiled.mesh
+object.absoluteposition 154.165/20/-321.716
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r90_compiled.mesh
+object.absoluteposition 163.288/20/-370.35
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r91_compiled.mesh
+object.absoluteposition 122.503/20/-380.29
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r92_compiled.mesh
+object.absoluteposition 86.12/20/-248.595
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r93_compiled.mesh
+object.absoluteposition -26.1031/20/-195.689
+
+object.create tarmac_muttrah_singlelane
+object.geometry.loadMesh Levels\beirut\Roads\o1_compiled.mesh
+object.absoluteposition 36.2452/25.6914/-170.723
+
+object.create tarmac_muttrah_singlelane
+object.geometry.loadMesh Levels\beirut\Roads\o2_compiled.mesh
+object.absoluteposition -178.748/29.8017/66.2525
+
+object.create tarmac_muttrah_singlelane
+object.geometry.loadMesh Levels\beirut\Roads\o3_compiled.mesh
+object.absoluteposition -271.919/27.1796/87.0214
+
+object.create tarmac_muttrah_singlelane
+object.geometry.loadMesh Levels\beirut\Roads\o4_compiled.mesh
+object.absoluteposition -225.329/27.9351/76.802
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r94_compiled.mesh
+object.absoluteposition -229.432/22.125/125.043
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r95_compiled.mesh
+object.absoluteposition -394.246/21.3374/161.946
+
+object.create explosion_mark_xpack
+object.geometry.loadMesh Levels\beirut\Roads\b1_compiled.mesh
+object.absoluteposition -396.255/22.0063/158.76
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r96_compiled.mesh
+object.absoluteposition -83.5701/20/-286.72
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r97_compiled.mesh
+object.absoluteposition -131.027/20/-334.68
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r98_compiled.mesh
+object.absoluteposition -107.649/20/-218.897
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r99_compiled.mesh
+object.absoluteposition 446.303/20/-270.305
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r100_compiled.mesh
+object.absoluteposition 408.886/20/-231.621
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r101_compiled.mesh
+object.absoluteposition 43.7166/20/-26.0002
+
+object.create tarmac_muttrah_singlelane
+object.geometry.loadMesh Levels\beirut\Roads\o5_compiled.mesh
+object.absoluteposition 68.1032/27.9563/-88.7532
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r102_compiled.mesh
+object.absoluteposition 552.961/20/-41.0073
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r103_compiled.mesh
+object.absoluteposition 535.201/20/-176.158
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r104_compiled.mesh
+object.absoluteposition 487.617/20/-191.74
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r105_compiled.mesh
+object.absoluteposition 487.237/20/-33.5903
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r106_compiled.mesh
+object.absoluteposition 401.53/20/-132.801
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r107_compiled.mesh
+object.absoluteposition 383.711/20/-26.6809
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r108_compiled.mesh
+object.absoluteposition 145.914/20/158.216
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r109_compiled.mesh
+object.absoluteposition 266.551/20/154.328
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r110_compiled.mesh
+object.absoluteposition 232.916/20/47.1985
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r111_compiled.mesh
+object.absoluteposition 342.731/20/56.3111
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r112_compiled.mesh
+object.absoluteposition 471.215/20/51.8781
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r113_compiled.mesh
+object.absoluteposition 395.219/20/93.9429
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r114_compiled.mesh
+object.absoluteposition 348.136/20/121.565
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r115_compiled.mesh
+object.absoluteposition 403.467/20/157.148
+
+object.create Muttrah_road_nocurb
+object.geometry.loadMesh Levels\beirut\Roads\r117_compiled.mesh
+object.absoluteposition -828.431/20/173.15
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r118_compiled.mesh
+object.absoluteposition -701.782/26.271/-49.465
+
+object.create tarmac_muttrah_singlelane
+object.geometry.loadMesh Levels\beirut\Roads\o6_compiled.mesh
+object.absoluteposition -692.928/29.14/83.7903
+
+object.create tarmac_muttrah_singlelane
+object.geometry.loadMesh Levels\beirut\Roads\o7_compiled.mesh
+object.absoluteposition -709.152/28.9725/83.3934
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\h14_compiled.mesh
+object.absoluteposition -518.349/31.2964/96.6252
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r119_compiled.mesh
+object.absoluteposition -433.772/20/-573.638
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r120_compiled.mesh
+object.absoluteposition -655.97/27.9713/147.842
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r121_compiled.mesh
+object.absoluteposition 231.728/20/-662.477
+
+object.create Muttrah_street
+object.geometry.loadMesh Levels\beirut\Roads\r122_compiled.mesh
+object.absoluteposition 251.788/20/-642.53
+

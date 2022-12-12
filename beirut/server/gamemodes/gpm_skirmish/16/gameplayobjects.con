@@ -1,0 +1,388 @@
+rem ********** Object Spawner **********
+rem [ObjectSpawnerTemplate: cpname_beirut_skirmish16_rustart_acv]
+ObjectTemplate.create ObjectSpawner cpname_beirut_skirmish16_rustart_acv
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_skirmish16_rustart_acv
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ru_acv_btr60pu
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_skirmish16_rustart_cr]
+ObjectTemplate.create ObjectSpawner cpname_beirut_skirmish16_rustart_cr
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_skirmish16_rustart_cr
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 fixed_supply_crate
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_skirmish16_rustart_cr2]
+ObjectTemplate.create ObjectSpawner cpname_beirut_skirmish16_rustart_cr2
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_skirmish16_rustart_cr2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 fixed_supply_crate
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_skirmish16_yankee_cr]
+ObjectTemplate.create ObjectSpawner cpname_beirut_skirmish16_yankee_cr
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_skirmish16_yankee_cr
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 fixed_supply_crate
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_skirmish16_xray_cr]
+ObjectTemplate.create ObjectSpawner cpname_beirut_skirmish16_xray_cr
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_skirmish16_xray_cr
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 fixed_supply_crate
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_skirmish16_zulu_cr]
+ObjectTemplate.create ObjectSpawner cpname_beirut_skirmish16_zulu_cr
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_skirmish16_zulu_cr
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 fixed_supply_crate
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_skirmish16_idfstart_cr]
+ObjectTemplate.create ObjectSpawner cpname_beirut_skirmish16_idfstart_cr
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_skirmish16_idfstart_cr
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 fixed_supply_crate
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_skirmish16_idfstart_acv]
+ObjectTemplate.create ObjectSpawner cpname_beirut_skirmish16_idfstart_acv
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_skirmish16_idfstart_acv
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 idf_acv_m557
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+if v_arg1 == host
+
+   rem [ObjectSpawner: cpname_beirut_skirmish16_rustart_acv]
+   Object.create cpname_beirut_skirmish16_rustart_acv
+   Object.absolutePosition 612.000/21.240/-349.000
+   Object.rotation 30.000/0.000/0.000
+   Object.setControlPointId 401
+   Object.layer 5
+
+   rem [ObjectSpawner: cpname_beirut_skirmish16_rustart_cr]
+   Object.create cpname_beirut_skirmish16_rustart_cr
+   Object.absolutePosition 620.000/20.000/-352.000
+   Object.rotation 30.000/0.000/0.000
+   Object.setControlPointId 401
+   Object.layer 5
+
+   rem [ObjectSpawner: cpname_beirut_skirmish16_rustart_cr2]
+   Object.create cpname_beirut_skirmish16_rustart_cr2
+   Object.absolutePosition 642.000/20.000/-310.000
+   Object.rotation 30.000/0.000/0.000
+   Object.setControlPointId 401
+   Object.layer 5
+
+   rem [ObjectSpawner: cpname_beirut_skirmish16_yankee_cr]
+   Object.create cpname_beirut_skirmish16_yankee_cr
+   Object.absolutePosition 444.000/20.000/-155.000
+   Object.rotation 30.000/0.000/0.000
+   Object.setControlPointId 405
+   Object.layer 5
+
+   rem [ObjectSpawner: cpname_beirut_skirmish16_xray_cr]
+   Object.create cpname_beirut_skirmish16_xray_cr
+   Object.absolutePosition 388.000/20.000/24.000
+   Object.rotation 30.000/0.000/0.000
+   Object.setControlPointId 404
+   Object.layer 5
+
+   rem [ObjectSpawner: cpname_beirut_skirmish16_zulu_cr]
+   Object.create cpname_beirut_skirmish16_zulu_cr
+   Object.absolutePosition 228.000/20.000/-66.000
+   Object.rotation 30.000/0.000/0.000
+   Object.setControlPointId 403
+   Object.layer 5
+
+   rem [ObjectSpawner: cpname_beirut_skirmish16_idfstart_cr]
+   Object.create cpname_beirut_skirmish16_idfstart_cr
+   Object.absolutePosition 150.000/20.000/104.000
+   Object.rotation 30.000/0.000/0.000
+   Object.setControlPointId 402
+   Object.layer 5
+
+   rem [ObjectSpawner: cpname_beirut_skirmish16_idfstart_acv]
+   Object.create cpname_beirut_skirmish16_idfstart_acv
+   Object.absolutePosition 151.000/21.260/117.000
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 402
+   Object.layer 5
+
+endIf
+
+rem ********** Spawn Points **********
+rem [SpawnPointTemplate: cpname_beirut_skirmish16_rustart_1]
+ObjectTemplate.create SpawnPoint cpname_beirut_skirmish16_rustart_1
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_skirmish16_rustart_1
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 401
+ObjectTemplate.setScatterSpawnPositions 1
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_skirmish16_rustart_1]
+Object.create cpname_beirut_skirmish16_rustart_1
+Object.absolutePosition 647.000/20.000/-314.000
+Object.rotation -56.027/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: cpname_beirut_skirmish16_rustart_2]
+ObjectTemplate.create SpawnPoint cpname_beirut_skirmish16_rustart_2
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_skirmish16_rustart_2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 401
+ObjectTemplate.setScatterSpawnPositions 1
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_skirmish16_rustart_2]
+Object.create cpname_beirut_skirmish16_rustart_2
+Object.absolutePosition 630.000/20.000/-349.000
+Object.rotation -83.752/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: cpname_beirut_skirmish16_idfstart_1]
+ObjectTemplate.create SpawnPoint cpname_beirut_skirmish16_idfstart_1
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_skirmish16_idfstart_1
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 402
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_skirmish16_idfstart_1]
+Object.create cpname_beirut_skirmish16_idfstart_1
+Object.absolutePosition 116.000/20.000/130.000
+Object.rotation 158.426/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: cpname_beirut_skirmish16_idfstart_2]
+ObjectTemplate.create SpawnPoint cpname_beirut_skirmish16_idfstart_2
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_skirmish16_idfstart_2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 402
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_skirmish16_idfstart_2]
+Object.create cpname_beirut_skirmish16_idfstart_2
+Object.absolutePosition 160.000/20.000/132.000
+Object.rotation -156.661/0.000/0.000
+Object.layer 5
+
+rem [SpawnPointTemplate: cpname_beirut_skirmish16_idfstart_3]
+ObjectTemplate.create SpawnPoint cpname_beirut_skirmish16_idfstart_3
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_skirmish16_idfstart_3
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 402
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_skirmish16_idfstart_3]
+Object.create cpname_beirut_skirmish16_idfstart_3
+Object.absolutePosition 148.000/20.000/84.000
+Object.rotation -4.181/0.000/0.000
+Object.layer 5
+
+rem ********** Control Points **********
+rem [ControlPointTemplate: cpname_beirut_skirmish16_rustart]
+ObjectTemplate.create ControlPoint cpname_beirut_skirmish16_rustart
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_skirmish16_rustart
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_skirmish16_rustart
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 401
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.supplyGroupId 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_skirmish16_idfstart]
+ObjectTemplate.create ControlPoint cpname_beirut_skirmish16_idfstart
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_skirmish16_idfstart
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_skirmish16_idfstart
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 402
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_skirmish16_zulu]
+ObjectTemplate.create ControlPoint cpname_beirut_skirmish16_zulu
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_skirmish16_zulu
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_skirmish16_zulu
+ObjectTemplate.radius 50
+ObjectTemplate.radiusOffset 0/20/0
+ObjectTemplate.controlPointId 403
+ObjectTemplate.areaValueTeam1 35
+ObjectTemplate.areaValueTeam2 35
+ObjectTemplate.timeToGetControl 90
+ObjectTemplate.timeToLoseControl 90
+ObjectTemplate.supplyGroupId 4
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_skirmish16_xray]
+ObjectTemplate.create ControlPoint cpname_beirut_skirmish16_xray
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_skirmish16_xray
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_skirmish16_xray
+ObjectTemplate.radius 50
+ObjectTemplate.controlPointId 404
+ObjectTemplate.areaValueTeam1 35
+ObjectTemplate.areaValueTeam2 35
+ObjectTemplate.timeToGetControl 90
+ObjectTemplate.timeToLoseControl 90
+ObjectTemplate.supplyGroupId 3
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_skirmish16_yankee]
+ObjectTemplate.create ControlPoint cpname_beirut_skirmish16_yankee
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_skirmish16_yankee
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_skirmish16_yankee
+ObjectTemplate.radius 50
+ObjectTemplate.radiusOffset 0/20/0
+ObjectTemplate.controlPointId 405
+ObjectTemplate.areaValueTeam1 35
+ObjectTemplate.areaValueTeam2 35
+ObjectTemplate.timeToGetControl 90
+ObjectTemplate.timeToLoseControl 90
+ObjectTemplate.supplyGroupId 2
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+if v_arg1 == host
+
+   rem [ControlPoint: cpname_beirut_skirmish16_rustart]
+   Object.create cpname_beirut_skirmish16_rustart
+   Object.absolutePosition 593.000/20.000/-278.000
+   Object.layer 5
+
+   rem [ControlPoint: cpname_beirut_skirmish16_idfstart]
+   Object.create cpname_beirut_skirmish16_idfstart
+   Object.absolutePosition 137.000/20.000/78.000
+   Object.layer 5
+
+   rem [ControlPoint: cpname_beirut_skirmish16_zulu]
+   Object.create cpname_beirut_skirmish16_zulu
+   Object.absolutePosition 227.000/0.000/-70.000
+   Object.layer 5
+
+   rem [ControlPoint: cpname_beirut_skirmish16_xray]
+   Object.create cpname_beirut_skirmish16_xray
+   Object.absolutePosition 399.000/20.000/36.000
+   Object.layer 5
+
+   rem [ControlPoint: cpname_beirut_skirmish16_yankee]
+   Object.create cpname_beirut_skirmish16_yankee
+   Object.absolutePosition 446.000/0.000/-152.000
+   Object.layer 5
+
+endIf
+
+CombatAreaManager.use 1
+CombatAreaManager.timeAllowedOutside 10.000000
+CombatArea.create CombatArea_0_skm16
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint 629.073364/-375.955994
+CombatArea.addAreaPoint 651.966064/-325.562622
+CombatArea.addAreaPoint 677.876343/-256.746033
+CombatArea.addAreaPoint 688.752319/-58.672729
+CombatArea.addAreaPoint 472.796509/228.151978
+CombatArea.addAreaPoint 318.250854/239.951660
+CombatArea.addAreaPoint 51.964478/187.445435
+CombatArea.addAreaPoint 21.276245/13.083496
+CombatArea.addAreaPoint 10.006104/-73.888428
+CombatArea.addAreaPoint 37.704346/-103.734192
+CombatArea.addAreaPoint 426.064331/-289.785217
+CombatArea.team 0
+CombatArea.vehicles 4
+CombatArea.layer 5
+
+CombatArea.create CombatArea_11_skm16
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint 628.432007/-374.669128
+CombatArea.addAreaPoint 651.115845/-325.305481
+CombatArea.addAreaPoint 677.449585/-256.723450
+CombatArea.addAreaPoint 620.801758/-207.185730
+CombatArea.addAreaPoint 612.077637/-210.162170
+CombatArea.addAreaPoint 550.104980/-210.039001
+CombatArea.addAreaPoint 504.143433/-322.275818
+CombatArea.team 2
+CombatArea.vehicles 4
+CombatArea.layer 5
+CombatArea.Inverted 1
+
+CombatArea.create CombatArea_18_skm16
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint 198.880127/45.999878
+CombatArea.addAreaPoint 199.995605/215.653564
+CombatArea.addAreaPoint 52.830566/186.731079
+CombatArea.addAreaPoint 29.401855/55.395264
+CombatArea.addAreaPoint 86.109131/43.678955
+CombatArea.team 1
+CombatArea.vehicles 4
+CombatArea.layer 5
+CombatArea.Inverted 1
+

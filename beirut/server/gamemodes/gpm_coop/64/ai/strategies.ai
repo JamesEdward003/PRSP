@@ -1,0 +1,14 @@
+rem ESAI strategy: largeMap 
+
+rem -= load Enhanced SAI core =-
+run ../../../../../../ai/esai/Core/esaicore.ai
+
+rem -= load Enhanced SAI default plugins =-
+run ../../../../../../ai/esai/Plugin/default/grabNeutrals.ai
+run ../../../../../../ai/esai/Plugin/default/endGame.ai
+
+rem -= load user plugins =-
+rem run ../../../../../../ai/esai/Plugin/user/yourPluginName.ai
+
+rem -= load strategy =-
+run ../../../../../../ai/esai/Strategy/default/largeMap.ai

@@ -1,0 +1,30 @@
+rem ----------------------------------------------------------------
+rem ----------------------------INIT_SP-----------------------------
+rem -------------(overwrites main init.con on gpm_coop)-------------
+rem ----------------------------------------------------------------
+
+rem ----------------------------COOP Fixes----------------------------
+
+run /coopfixes/coopfixes.con
+
+rem ----------------------------SL Spawn----------------------------
+
+ObjectTemplate.active SoldierCamera
+ObjectTemplate.create SpawnPoint SquadLeaderSpawnPoint
+ObjectTemplate.PreCacheObject 1
+ObjectTemplate.setScatterSpawnPositions 1
+ObjectTemplate.setSpawnPositionOffset 0/0/0
+
+rem --------------------------SP Settings---------------------------
+
+run ../../Factions/faction_init.con 1 "ru_sp"
+run ../../Factions/faction_init.con 2 "idf_sp"
+
+rem ---------------------------SP Tickets---------------------------
+
+gameLogic.setDefaultNumberOfTicketsEx 16 1 500
+gameLogic.setDefaultNumberOfTicketsEx 16 2 500
+gameLogic.setDefaultNumberOfTicketsEx 32 1 500
+gameLogic.setDefaultNumberOfTicketsEx 32 2 500
+gameLogic.setDefaultNumberOfTicketsEx 64 1 500
+gameLogic.setDefaultNumberOfTicketsEx 64 2 500

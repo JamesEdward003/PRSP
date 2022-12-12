@@ -1,0 +1,1218 @@
+rem ********** Object Spawner **********
+rem [ObjectSpawnerTemplate: cpname_beirut_coop16_apartments_apc]
+ObjectTemplate.create ObjectSpawner cpname_beirut_coop16_apartments_apc
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_coop16_apartments_apc
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 idf_aav_m163
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_coop16_apartments_depot]
+ObjectTemplate.create ObjectSpawner cpname_beirut_coop16_apartments_depot
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_coop16_apartments_depot
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 vehicle_depot_idf
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_coop16_apartments_truck]
+ObjectTemplate.create ObjectSpawner cpname_beirut_coop16_apartments_truck
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_coop16_apartments_truck
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 idf_trk_logistics
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_coop16_square_brdm]
+ObjectTemplate.create ObjectSpawner cpname_beirut_coop16_square_brdm
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_coop16_square_brdm
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ru_apc_btr82am
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_coop16_square_depot]
+ObjectTemplate.create ObjectSpawner cpname_beirut_coop16_square_depot
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_coop16_square_depot
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 vehicle_depot_ru
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_coop16_square_trk]
+ObjectTemplate.create ObjectSpawner cpname_beirut_coop16_square_trk
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_coop16_square_trk
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ru_trk_kamaz_logistics
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+if v_arg1 == host
+
+   rem [ObjectSpawner: cpname_beirut_coop16_apartments_apc]
+   Object.create cpname_beirut_coop16_apartments_apc
+   Object.absolutePosition -23.053/20.000/-349.559
+   Object.rotation -3.886/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: cpname_beirut_coop16_apartments_depot]
+   Object.create cpname_beirut_coop16_apartments_depot
+   Object.absolutePosition -82.548/20.000/-398.659
+   Object.rotation 123.376/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: cpname_beirut_coop16_apartments_truck]
+   Object.create cpname_beirut_coop16_apartments_truck
+   Object.absolutePosition -95.389/20.000/-385.643
+   Object.rotation 165.026/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: cpname_beirut_coop16_square_brdm]
+   Object.create cpname_beirut_coop16_square_brdm
+   Object.absolutePosition 276.119/20.000/97.545
+   Object.rotation 165.026/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 1
+
+   rem [ObjectSpawner: cpname_beirut_coop16_square_depot]
+   Object.create cpname_beirut_coop16_square_depot
+   Object.absolutePosition 133.525/20.000/124.677
+   Object.rotation -15.000/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 1
+
+   rem [ObjectSpawner: cpname_beirut_coop16_square_trk]
+   Object.create cpname_beirut_coop16_square_trk
+   Object.absolutePosition 146.585/20.000/125.445
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 1
+
+endIf
+
+rem ********** Spawn Points **********
+rem [SpawnPointTemplate: cpname_beirut_coop16_square_1]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_square_1
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_square_1
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_square_1]
+Object.create cpname_beirut_coop16_square_1
+Object.absolutePosition 259.101/20.000/61.377
+Object.rotation -17.862/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_square_2]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_square_2
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_square_2
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_square_2]
+Object.create cpname_beirut_coop16_square_2
+Object.absolutePosition 234.743/20.000/63.485
+Object.rotation 14.080/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_square_3]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_square_3
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_square_3
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_square_3]
+Object.create cpname_beirut_coop16_square_3
+Object.absolutePosition 219.193/20.000/131.968
+Object.rotation 133.336/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_square_4]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_square_4
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_square_4
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_square_4]
+Object.create cpname_beirut_coop16_square_4
+Object.absolutePosition 174.078/20.000/136.745
+Object.rotation 112.567/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_square_5]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_square_5
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_square_5
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_square_5]
+Object.create cpname_beirut_coop16_square_5
+Object.absolutePosition 162.876/20.000/84.082
+Object.rotation 74.526/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_square_6]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_square_6
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_square_6
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_square_6]
+Object.create cpname_beirut_coop16_square_6
+Object.absolutePosition 255.717/20.000/138.920
+Object.rotation -162.506/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_square_7]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_square_7
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_square_7
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_square_7]
+Object.create cpname_beirut_coop16_square_7
+Object.absolutePosition 286.460/24.637/124.524
+Object.rotation -140.254/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_square_8]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_square_8
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_square_8
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_square_8]
+Object.create cpname_beirut_coop16_square_8
+Object.absolutePosition 289.750/24.766/98.579
+Object.rotation -79.189/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_square_9]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_square_9
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_square_9
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_square_9]
+Object.create cpname_beirut_coop16_square_9
+Object.absolutePosition 307.567/20.000/39.714
+Object.rotation -42.618/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_square_10]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_square_10
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_square_10
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_square_10]
+Object.create cpname_beirut_coop16_square_10
+Object.absolutePosition 327.264/23.604/161.887
+Object.rotation -123.924/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_park_1]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_park_1
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_park_1
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 6
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_park_1]
+Object.create cpname_beirut_coop16_park_1
+Object.absolutePosition 312.686/20.000/-26.969
+Object.rotation 121.778/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_park_2]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_park_2
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_park_2
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 6
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_park_2]
+Object.create cpname_beirut_coop16_park_2
+Object.absolutePosition 307.481/20.000/-89.191
+Object.rotation 41.083/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_park_3]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_park_3
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_park_3
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 6
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_park_3]
+Object.create cpname_beirut_coop16_park_3
+Object.absolutePosition 370.788/20.000/-90.040
+Object.rotation -31.209/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_park_4]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_park_4
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_park_4
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 6
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_park_4]
+Object.create cpname_beirut_coop16_park_4
+Object.absolutePosition 383.229/20.000/-59.770
+Object.rotation -71.334/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_park_5]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_park_5
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_park_5
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 6
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_park_5]
+Object.create cpname_beirut_coop16_park_5
+Object.absolutePosition 373.503/20.000/-85.321
+Object.rotation -36.875/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_park_6]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_park_6
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_park_6
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 6
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_park_6]
+Object.create cpname_beirut_coop16_park_6
+Object.absolutePosition 398.706/20.000/-11.298
+Object.rotation -123.159/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_park_7]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_park_7
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_park_7
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 6
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_park_7]
+Object.create cpname_beirut_coop16_park_7
+Object.absolutePosition 373.922/20.000/9.893
+Object.rotation -152.552/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_housing_1]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_housing_1
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_housing_1
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 5
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_housing_1]
+Object.create cpname_beirut_coop16_housing_1
+Object.absolutePosition 462.116/20.095/-163.541
+Object.rotation -70.849/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_housing_2]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_housing_2
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_housing_2
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 5
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_housing_2]
+Object.create cpname_beirut_coop16_housing_2
+Object.absolutePosition 478.706/20.134/-170.794
+Object.rotation -69.535/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_housing_3]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_housing_3
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_housing_3
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 5
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_housing_3]
+Object.create cpname_beirut_coop16_housing_3
+Object.absolutePosition 470.998/20.171/-185.422
+Object.rotation -54.090/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_housing_4]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_housing_4
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_housing_4
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 5
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_housing_4]
+Object.create cpname_beirut_coop16_housing_4
+Object.absolutePosition 397.232/20.074/-187.063
+Object.rotation 32.321/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_housing_5]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_housing_5
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_housing_5
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 5
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_housing_5]
+Object.create cpname_beirut_coop16_housing_5
+Object.absolutePosition 391.184/20.072/-180.359
+Object.rotation 43.950/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_housing_6]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_housing_6
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_housing_6
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 5
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_housing_6]
+Object.create cpname_beirut_coop16_housing_6
+Object.absolutePosition 398.117/20.194/-205.190
+Object.rotation 22.374/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_housing_7]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_housing_7
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_housing_7
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 5
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_housing_7]
+Object.create cpname_beirut_coop16_housing_7
+Object.absolutePosition 411.386/25.683/-157.315
+Object.rotation 57.481/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_housing_8]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_housing_8
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_housing_8
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 5
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_housing_8]
+Object.create cpname_beirut_coop16_housing_8
+Object.absolutePosition 407.254/28.235/-163.096
+Object.rotation 78.365/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_housing_9]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_housing_9
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_housing_9
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 5
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_housing_9]
+Object.create cpname_beirut_coop16_housing_9
+Object.absolutePosition 433.117/25.655/-139.202
+Object.rotation -131.337/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_housing_10]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_housing_10
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_housing_10
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 5
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_housing_10]
+Object.create cpname_beirut_coop16_housing_10
+Object.absolutePosition 420.605/22.791/-133.148
+Object.rotation 178.167/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_housing_11]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_housing_11
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_housing_11
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 5
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_housing_11]
+Object.create cpname_beirut_coop16_housing_11
+Object.absolutePosition 415.836/20.224/-131.349
+Object.rotation 163.595/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_housing_12]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_housing_12
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_housing_12
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 5
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_housing_12]
+Object.create cpname_beirut_coop16_housing_12
+Object.absolutePosition 401.908/20.112/-159.853
+Object.rotation 61.232/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_housing_13]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_housing_13
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_housing_13
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 5
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_housing_13]
+Object.create cpname_beirut_coop16_housing_13
+Object.absolutePosition 436.925/31.095/-150.753
+Object.rotation -87.055/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_highway_1]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_highway_1
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_highway_1
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 4
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_highway_1]
+Object.create cpname_beirut_coop16_highway_1
+Object.absolutePosition 469.576/20.000/-279.518
+Object.rotation -110.304/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_highway_2]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_highway_2
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_highway_2
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 4
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_highway_2]
+Object.create cpname_beirut_coop16_highway_2
+Object.absolutePosition 490.830/20.000/-234.088
+Object.rotation -134.714/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_highway_3]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_highway_3
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_highway_3
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 4
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_highway_3]
+Object.create cpname_beirut_coop16_highway_3
+Object.absolutePosition 406.827/25.745/-250.541
+Object.rotation 151.718/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_highway_4]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_highway_4
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_highway_4
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 4
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_highway_4]
+Object.create cpname_beirut_coop16_highway_4
+Object.absolutePosition 383.105/25.745/-302.769
+Object.rotation 79.544/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_highway_5]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_highway_5
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_highway_5
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 4
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_highway_5]
+Object.create cpname_beirut_coop16_highway_5
+Object.absolutePosition 427.464/20.071/-344.638
+Object.rotation 3.150/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_highway_6]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_highway_6
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_highway_6
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 4
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_highway_6]
+Object.create cpname_beirut_coop16_highway_6
+Object.absolutePosition 489.867/20.000/-349.583
+Object.rotation -47.042/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_highway_7]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_highway_7
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_highway_7
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 4
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_highway_7]
+Object.create cpname_beirut_coop16_highway_7
+Object.absolutePosition 530.715/20.000/-301.893
+Object.rotation -85.547/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_alley_1]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_alley_1
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_alley_1
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 3
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_alley_1]
+Object.create cpname_beirut_coop16_alley_1
+Object.absolutePosition 408.441/20.000/-489.941
+Object.rotation -45.870/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_alley_2]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_alley_2
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_alley_2
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 3
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_alley_2]
+Object.create cpname_beirut_coop16_alley_2
+Object.absolutePosition 325.544/20.000/-480.408
+Object.rotation 12.784/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_alley_3]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_alley_3
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_alley_3
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 3
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_alley_3]
+Object.create cpname_beirut_coop16_alley_3
+Object.absolutePosition 277.925/20.000/-456.407
+Object.rotation 56.514/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_alley_4]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_alley_4
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_alley_4
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 3
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_alley_4]
+Object.create cpname_beirut_coop16_alley_4
+Object.absolutePosition 306.705/27.962/-482.329
+Object.rotation 26.595/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_alley_5]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_alley_5
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_alley_5
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 3
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_alley_5]
+Object.create cpname_beirut_coop16_alley_5
+Object.absolutePosition 279.668/20.000/-412.642
+Object.rotation 92.321/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_alley_6]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_alley_6
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_alley_6
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 3
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_alley_6]
+Object.create cpname_beirut_coop16_alley_6
+Object.absolutePosition 369.150/20.000/-361.110
+Object.rotation -148.437/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_alley_7]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_alley_7
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_alley_7
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 3
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_alley_7]
+Object.create cpname_beirut_coop16_alley_7
+Object.absolutePosition 349.194/20.000/-344.237
+Object.rotation -172.896/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_market_1]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_market_1
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_market_1
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 2
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_market_1]
+Object.create cpname_beirut_coop16_market_1
+Object.absolutePosition 277.637/20.000/-368.984
+Object.rotation -75.694/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_alley_8]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_alley_8
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_alley_8
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 3
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_alley_8]
+Object.create cpname_beirut_coop16_alley_8
+Object.absolutePosition 306.894/20.000/-435.970
+Object.rotation 56.264/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_market_2]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_market_2
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_market_2
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 2
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_market_2]
+Object.create cpname_beirut_coop16_market_2
+Object.absolutePosition 208.116/20.000/-425.771
+Object.rotation 7.027/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_market_3]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_market_3
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_market_3
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 2
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_market_3]
+Object.create cpname_beirut_coop16_market_3
+Object.absolutePosition 191.140/20.000/-411.605
+Object.rotation 24.019/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_market_4]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_market_4
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_market_4
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 2
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_market_4]
+Object.create cpname_beirut_coop16_market_4
+Object.absolutePosition 168.190/20.000/-333.782
+Object.rotation 112.016/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_market_5]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_market_5
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_market_5
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 2
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_market_5]
+Object.create cpname_beirut_coop16_market_5
+Object.absolutePosition 258.883/20.000/-288.416
+Object.rotation -147.262/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_market_6]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_market_6
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_market_6
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 2
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_market_6]
+Object.create cpname_beirut_coop16_market_6
+Object.absolutePosition 213.312/25.085/-243.214
+Object.rotation 179.705/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_market_7]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_market_7
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_market_7
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 2
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_market_7]
+Object.create cpname_beirut_coop16_market_7
+Object.absolutePosition 152.690/20.000/-398.672
+Object.rotation 54.941/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_apartments_1]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_apartments_1
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_apartments_1
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 1
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_apartments_1]
+Object.create cpname_beirut_coop16_apartments_1
+Object.absolutePosition 46.935/20.000/-392.916
+Object.rotation -68.782/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_apartments_2]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_apartments_2
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_apartments_2
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 1
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_apartments_2]
+Object.create cpname_beirut_coop16_apartments_2
+Object.absolutePosition -37.077/20.000/-339.662
+Object.rotation 137.116/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_apartments_3]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_apartments_3
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_apartments_3
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 1
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_apartments_3]
+Object.create cpname_beirut_coop16_apartments_3
+Object.absolutePosition -66.290/24.573/-371.574
+Object.rotation 88.082/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_apartments_4]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_apartments_4
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_apartments_4
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 1
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_apartments_4]
+Object.create cpname_beirut_coop16_apartments_4
+Object.absolutePosition -64.292/27.967/-377.367
+Object.rotation 84.575/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_apartments_5]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_apartments_5
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_apartments_5
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 1
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_apartments_5]
+Object.create cpname_beirut_coop16_apartments_5
+Object.absolutePosition -13.992/28.345/-384.315
+Object.rotation 29.712/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_apartments_6]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_apartments_6
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_apartments_6
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 1
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_apartments_6]
+Object.create cpname_beirut_coop16_apartments_6
+Object.absolutePosition -9.887/24.484/-357.556
+Object.rotation -179.414/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: cpname_beirut_coop16_apartments_7]
+ObjectTemplate.create SpawnPoint cpname_beirut_coop16_apartments_7
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_coop16_apartments_7
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 1
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_coop16_apartments_7]
+Object.create cpname_beirut_coop16_apartments_7
+Object.absolutePosition 11.045/28.155/-371.232
+Object.rotation -92.221/0.000/0.000
+Object.layer 1
+
+rem ********** Control Points **********
+rem [ControlPointTemplate: cpname_beirut_coop16_apartments]
+ObjectTemplate.create ControlPoint cpname_beirut_coop16_apartments
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_coop16_apartments
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_coop16_apartments
+ObjectTemplate.radius 30
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 1
+ObjectTemplate.areaValueTeam1 100
+ObjectTemplate.timeToGetControl 90
+ObjectTemplate.timeToLoseControl 90
+ObjectTemplate.supplyGroupId 7
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_coop16_market]
+ObjectTemplate.create ControlPoint cpname_beirut_coop16_market
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_coop16_market
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_coop16_market
+ObjectTemplate.radius 30
+ObjectTemplate.controlPointId 2
+ObjectTemplate.timeToGetControl 90
+ObjectTemplate.timeToLoseControl 90
+ObjectTemplate.supplyGroupId 6
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_coop16_alley]
+ObjectTemplate.create ControlPoint cpname_beirut_coop16_alley
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_coop16_alley
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_coop16_alley
+ObjectTemplate.radius 30
+ObjectTemplate.controlPointId 3
+ObjectTemplate.timeToGetControl 90
+ObjectTemplate.timeToLoseControl 90
+ObjectTemplate.supplyGroupId 5
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_coop16_highway]
+ObjectTemplate.create ControlPoint cpname_beirut_coop16_highway
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_coop16_highway
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_coop16_highway
+ObjectTemplate.radius 30
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 4
+ObjectTemplate.timeToGetControl 90
+ObjectTemplate.timeToLoseControl 90
+ObjectTemplate.supplyGroupId 4
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_coop16_housing]
+ObjectTemplate.create ControlPoint cpname_beirut_coop16_housing
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_coop16_housing
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_coop16_housing
+ObjectTemplate.radius 30
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 5
+ObjectTemplate.timeToGetControl 90
+ObjectTemplate.timeToLoseControl 90
+ObjectTemplate.supplyGroupId 3
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_coop16_park]
+ObjectTemplate.create ControlPoint cpname_beirut_coop16_park
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_coop16_park
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_coop16_park
+ObjectTemplate.radius 25
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 6
+ObjectTemplate.timeToGetControl 90
+ObjectTemplate.timeToLoseControl 90
+ObjectTemplate.supplyGroupId 2
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_coop16_square]
+ObjectTemplate.create ControlPoint cpname_beirut_coop16_square
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_coop16_square
+ObjectTemplate.modifiedByUser "Melon"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_coop16_square
+ObjectTemplate.radius 30
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 7
+ObjectTemplate.areaValueTeam2 100
+ObjectTemplate.timeToGetControl 90
+ObjectTemplate.timeToLoseControl 90
+ObjectTemplate.supplyGroupId 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+if v_arg1 == host
+
+   rem [ControlPoint: cpname_beirut_coop16_apartments]
+   Object.create cpname_beirut_coop16_apartments
+   Object.absolutePosition -7.103/17.834/-371.936
+   Object.layer 1
+
+   rem [ControlPoint: cpname_beirut_coop16_market]
+   Object.create cpname_beirut_coop16_market
+   Object.absolutePosition 217.021/18.017/-353.527
+   Object.layer 1
+
+   rem [ControlPoint: cpname_beirut_coop16_alley]
+   Object.create cpname_beirut_coop16_alley
+   Object.absolutePosition 340.362/17.755/-413.619
+   Object.layer 1
+
+   rem [ControlPoint: cpname_beirut_coop16_highway]
+   Object.create cpname_beirut_coop16_highway
+   Object.absolutePosition 430.247/17.509/-294.069
+   Object.layer 1
+
+   rem [ControlPoint: cpname_beirut_coop16_housing]
+   Object.create cpname_beirut_coop16_housing
+   Object.absolutePosition 421.122/17.959/-149.304
+   Object.layer 1
+
+   rem [ControlPoint: cpname_beirut_coop16_park]
+   Object.create cpname_beirut_coop16_park
+   Object.absolutePosition 344.529/22.035/-46.696
+   Object.layer 1
+
+   rem [ControlPoint: cpname_beirut_coop16_square]
+   Object.create cpname_beirut_coop16_square
+   Object.absolutePosition 245.656/17.900/106.999
+   Object.layer 1
+
+endIf
+
+CombatAreaManager.use 1
+CombatAreaManager.timeAllowedOutside 10.000000
+CombatArea.create CombatArea_0_Default
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint 545.116333/-327.130371
+CombatArea.addAreaPoint 563.297119/-281.882690
+CombatArea.addAreaPoint 586.025757/-235.777222
+CombatArea.addAreaPoint 578.450073/-209.471863
+CombatArea.addAreaPoint 577.639404/-156.045105
+CombatArea.addAreaPoint 577.444946/-138.180298
+CombatArea.addAreaPoint 584.543091/-107.651062
+CombatArea.addAreaPoint 615.324341/-35.861511
+CombatArea.addAreaPoint 600.691162/26.274048
+CombatArea.addAreaPoint 505.488281/92.269165
+CombatArea.addAreaPoint 471.997070/132.275513
+CombatArea.addAreaPoint 468.035645/175.414185
+CombatArea.addAreaPoint 451.779907/208.185913
+CombatArea.addAreaPoint 418.103516/226.926880
+CombatArea.addAreaPoint 360.926880/227.121582
+CombatArea.addAreaPoint 313.550415/208.326538
+CombatArea.addAreaPoint 299.090576/191.553345
+CombatArea.addAreaPoint 42.737915/196.771606
+CombatArea.addAreaPoint 27.036865/38.921875
+CombatArea.addAreaPoint 18.412476/-28.276245
+CombatArea.addAreaPoint 79.366211/-89.446777
+CombatArea.addAreaPoint 120.796631/-125.010986
+CombatArea.addAreaPoint 267.332764/-195.839294
+CombatArea.addAreaPoint 251.531738/-227.322937
+CombatArea.addAreaPoint 174.079712/-222.417847
+CombatArea.addAreaPoint -68.311340/-273.495300
+CombatArea.addAreaPoint -137.743408/-366.809570
+CombatArea.addAreaPoint -112.269104/-441.016785
+CombatArea.addAreaPoint -99.461304/-489.515808
+CombatArea.addAreaPoint -91.008423/-509.772461
+CombatArea.addAreaPoint -6.141296/-489.005859
+CombatArea.addAreaPoint 92.565674/-451.202820
+CombatArea.addAreaPoint 131.076904/-464.973022
+CombatArea.addAreaPoint 282.343384/-530.135498
+CombatArea.addAreaPoint 388.755615/-567.778137
+CombatArea.addAreaPoint 434.735352/-575.001709
+CombatArea.addAreaPoint 463.042236/-526.430786
+CombatArea.team 0
+CombatArea.vehicles 4
+CombatArea.layer 1
+CombatArea.usedByPathFinding 1
+
