@@ -1,0 +1,1657 @@
+rem ********** Object Spawner **********
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_idfmain_logi1]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_idfmain_logi1
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_idfmain_logi1
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 idf_trk_logistics
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_idfmain_logi2]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_idfmain_logi2
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_idfmain_logi2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 idf_apc_m113_logistics
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_idfmain_the]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_idfmain_the
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_idfmain_the
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 idf_aav_m163
+ObjectTemplate.minSpawnDelay 900
+ObjectTemplate.maxSpawnDelay 900
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_idfmain_jep1]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_idfmain_jep1
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_idfmain_jep1
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 idf_jep_hmmwvopen
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_idfmain_jep2]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_idfmain_jep2
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_idfmain_jep2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 idf_jep_hmmwvopen
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_idfmain_ifv]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_idfmain_ifv
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_idfmain_ifv
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 idf_apc_namer
+ObjectTemplate.minSpawnDelay 900
+ObjectTemplate.maxSpawnDelay 900
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_idfmain_tank]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_idfmain_tank
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_idfmain_tank
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 idf_apc_namer
+ObjectTemplate.minSpawnDelay 900
+ObjectTemplate.maxSpawnDelay 900
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_idfmain_cr]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_idfmain_cr
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_idfmain_cr
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate_idf
+ObjectTemplate.minSpawnDelay 5
+ObjectTemplate.maxSpawnDelay 5
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_idfmain_cr2]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_idfmain_cr2
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_idfmain_cr2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate_idf
+ObjectTemplate.minSpawnDelay 5
+ObjectTemplate.maxSpawnDelay 5
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_idfmain_cr3]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_idfmain_cr3
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_idfmain_cr3
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate_idf
+ObjectTemplate.minSpawnDelay 5
+ObjectTemplate.maxSpawnDelay 5
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_idfmain_cr4]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_idfmain_cr4
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_idfmain_cr4
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 fixed_supply_crate_idf
+ObjectTemplate.minSpawnDelay 5
+ObjectTemplate.maxSpawnDelay 5
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_idfmain_logi3]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_idfmain_logi3
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_idfmain_logi3
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 idf_trk_logistics
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_idfmain_apc1]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_idfmain_apc1
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_idfmain_apc1
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 idf_apc_m113
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_idfmain_apc2]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_idfmain_apc2
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_idfmain_apc2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 idf_apc_m113
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_idfmain_trk1]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_idfmain_trk1
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_idfmain_trk1
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 idf_trk_support
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_idfmain_trk2]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_idfmain_trk2
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_idfmain_trk2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 idf_trk_support
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_idfmain_trk3]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_idfmain_trk3
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_idfmain_trk3
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 idf_trk_support
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_idfmain_trk4]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_idfmain_trk4
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_idfmain_trk4
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 idf_trk_support
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_idfmain_acv]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_idfmain_acv
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_idfmain_acv
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 idf_acv_m557
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_idfmain_vd]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_idfmain_vd
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_idfmain_vd
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 vehicle_depot_idf
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_rufactory_logi1]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_rufactory_logi1
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_rufactory_logi1
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ru_trk_kamaz_logistics
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_rufactory_tank]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_rufactory_tank
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_rufactory_tank
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ru_ifv_bmp3m
+ObjectTemplate.minSpawnDelay 900
+ObjectTemplate.maxSpawnDelay 900
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_rufactory_jep1]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_rufactory_jep1
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_rufactory_jep1
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ru_jep_tigr
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_rufactory_jep2]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_rufactory_jep2
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_rufactory_jep2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ru_jep_tigr
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_rufactory_ats]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_rufactory_ats
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_rufactory_ats
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ats_hj8
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_rufactory_logiapc]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_rufactory_logiapc
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_rufactory_logiapc
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ru_apc_mtplb
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_rufactory_vd]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_rufactory_vd
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_rufactory_vd
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 vehicle_depot_ru
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_rufactory_apc1]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_rufactory_apc1
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_rufactory_apc1
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ru_apc_mtlb_hmg
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_rufactory_apc2]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_rufactory_apc2
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_rufactory_apc2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ru_apc_mtlb_hmg
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_rufactory_ifv]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_rufactory_ifv
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_rufactory_ifv
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ru_ifv_bmp3m
+ObjectTemplate.minSpawnDelay 900
+ObjectTemplate.maxSpawnDelay 900
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_ruship_the2]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_ruship_the2
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_ruship_the2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ru_the_ka29t_gatling
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_ruship_the3]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_ruship_the3
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_ruship_the3
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ru_the_ka29t_gatling
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 99999
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_ruship_cr2]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_ruship_cr2
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_ruship_cr2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 fixed_supply_crate_ru
+ObjectTemplate.minSpawnDelay 5
+ObjectTemplate.maxSpawnDelay 5
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_ruship_boat1]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_ruship_boat1
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_ruship_boat1
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 boat_rib_gpmg_pkp
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 300
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_ruship_boat2]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_ruship_boat2
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_ruship_boat2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 boat_rib_gpmg_pkp
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+ObjectTemplate.TimeToLive 300
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: cpname_beirut_aas32_ruship_acv]
+ObjectTemplate.create ObjectSpawner cpname_beirut_aas32_ruship_acv
+ObjectTemplate.activeSafe ObjectSpawner cpname_beirut_aas32_ruship_acv
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ru_ship_andreev_lpd_atc
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: common_idf_areaAttack1]
+ObjectTemplate.create ObjectSpawner common_idf_areaAttack1
+ObjectTemplate.activeSafe ObjectSpawner common_idf_areaAttack1
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 artillery_team2
+ObjectTemplate.minSpawnDelay 1800
+ObjectTemplate.maxSpawnDelay 1800
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: common_idf_areaAttack2]
+ObjectTemplate.create ObjectSpawner common_idf_areaAttack2
+ObjectTemplate.activeSafe ObjectSpawner common_idf_areaAttack2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 artillery_team2
+ObjectTemplate.minSpawnDelay 1800
+ObjectTemplate.maxSpawnDelay 1800
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: common_idf_areaAttack3]
+ObjectTemplate.create ObjectSpawner common_idf_areaAttack3
+ObjectTemplate.activeSafe ObjectSpawner common_idf_areaAttack3
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 artillery_team2
+ObjectTemplate.minSpawnDelay 1800
+ObjectTemplate.maxSpawnDelay 1800
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: common_idf_areaAttack4]
+ObjectTemplate.create ObjectSpawner common_idf_areaAttack4
+ObjectTemplate.activeSafe ObjectSpawner common_idf_areaAttack4
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 artillery_team2
+ObjectTemplate.minSpawnDelay 1800
+ObjectTemplate.maxSpawnDelay 1800
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: common_ru_areaAttack1]
+ObjectTemplate.create ObjectSpawner common_ru_areaAttack1
+ObjectTemplate.activeSafe ObjectSpawner common_ru_areaAttack1
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 artillery_team1
+ObjectTemplate.minSpawnDelay 1800
+ObjectTemplate.maxSpawnDelay 1800
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: common_ru_areaAttack2]
+ObjectTemplate.create ObjectSpawner common_ru_areaAttack2
+ObjectTemplate.activeSafe ObjectSpawner common_ru_areaAttack2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 artillery_team1
+ObjectTemplate.minSpawnDelay 1800
+ObjectTemplate.maxSpawnDelay 1800
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: common_ru_areaAttack3]
+ObjectTemplate.create ObjectSpawner common_ru_areaAttack3
+ObjectTemplate.activeSafe ObjectSpawner common_ru_areaAttack3
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 artillery_team1
+ObjectTemplate.minSpawnDelay 1800
+ObjectTemplate.maxSpawnDelay 1800
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: common_ru_areaAttack4]
+ObjectTemplate.create ObjectSpawner common_ru_areaAttack4
+ObjectTemplate.activeSafe ObjectSpawner common_ru_areaAttack4
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 artillery_team1
+ObjectTemplate.minSpawnDelay 1800
+ObjectTemplate.maxSpawnDelay 1800
+ObjectTemplate.spawnDelayAtStart 1
+ObjectTemplate.team 1
+ObjectTemplate.teamOnVehicle 1
+
+if v_arg1 == host
+
+   rem [ObjectSpawner: cpname_beirut_aas32_idfmain_logi1]
+   Object.create cpname_beirut_aas32_idfmain_logi1
+   Object.absolutePosition -859.000/20.000/-962.000
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_idfmain_logi2]
+   Object.create cpname_beirut_aas32_idfmain_logi2
+   Object.absolutePosition -859.000/20.000/-958.000
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_idfmain_the]
+   Object.create cpname_beirut_aas32_idfmain_the
+   Object.absolutePosition -871.000/20.000/-897.000
+   Object.rotation -137.000/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_idfmain_jep1]
+   Object.create cpname_beirut_aas32_idfmain_jep1
+   Object.absolutePosition -859.000/20.000/-947.000
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_idfmain_jep2]
+   Object.create cpname_beirut_aas32_idfmain_jep2
+   Object.absolutePosition -859.000/20.000/-952.000
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_idfmain_ifv]
+   Object.create cpname_beirut_aas32_idfmain_ifv
+   Object.absolutePosition -859.000/20.000/-906.000
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_idfmain_tank]
+   Object.create cpname_beirut_aas32_idfmain_tank
+   Object.absolutePosition -860.000/20.000/-898.000
+   Object.rotation -110.478/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_idfmain_cr]
+   Object.create cpname_beirut_aas32_idfmain_cr
+   Object.absolutePosition -942.000/20.000/-918.000
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_idfmain_cr2]
+   Object.create cpname_beirut_aas32_idfmain_cr2
+   Object.absolutePosition -878.000/20.000/-920.000
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_idfmain_cr3]
+   Object.create cpname_beirut_aas32_idfmain_cr3
+   Object.absolutePosition -878.000/20.000/-969.000
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_idfmain_cr4]
+   Object.create cpname_beirut_aas32_idfmain_cr4
+   Object.absolutePosition -934.000/20.000/-970.000
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_idfmain_logi3]
+   Object.create cpname_beirut_aas32_idfmain_logi3
+   Object.absolutePosition -859.000/20.000/-966.000
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_idfmain_apc1]
+   Object.create cpname_beirut_aas32_idfmain_apc1
+   Object.absolutePosition -863.000/20.000/-914.000
+   Object.rotation -60.000/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_idfmain_apc2]
+   Object.create cpname_beirut_aas32_idfmain_apc2
+   Object.absolutePosition -871.000/20.000/-915.000
+   Object.rotation -60.000/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_idfmain_trk1]
+   Object.create cpname_beirut_aas32_idfmain_trk1
+   Object.absolutePosition -927.000/20.000/-978.000
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_idfmain_trk2]
+   Object.create cpname_beirut_aas32_idfmain_trk2
+   Object.absolutePosition -931.000/20.000/-978.000
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_idfmain_trk3]
+   Object.create cpname_beirut_aas32_idfmain_trk3
+   Object.absolutePosition -938.000/20.000/-978.000
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_idfmain_trk4]
+   Object.create cpname_beirut_aas32_idfmain_trk4
+   Object.absolutePosition -942.000/20.000/-978.000
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_idfmain_acv]
+   Object.create cpname_beirut_aas32_idfmain_acv
+   Object.absolutePosition -868.000/21.260/-976.000
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_idfmain_vd]
+   Object.create cpname_beirut_aas32_idfmain_vd
+   Object.absolutePosition -904.000/20.000/-980.000
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 201
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_rufactory_logi1]
+   Object.create cpname_beirut_aas32_rufactory_logi1
+   Object.absolutePosition 874.000/20.000/-191.000
+   Object.rotation 22.000/0.000/0.000
+   Object.setControlPointId 202
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_rufactory_tank]
+   Object.create cpname_beirut_aas32_rufactory_tank
+   Object.absolutePosition 853.000/20.000/-202.000
+   Object.rotation -167.025/0.000/0.000
+   Object.setControlPointId 202
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_rufactory_jep1]
+   Object.create cpname_beirut_aas32_rufactory_jep1
+   Object.absolutePosition 870.000/20.000/-189.000
+   Object.rotation 22.000/0.000/0.000
+   Object.setControlPointId 202
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_rufactory_jep2]
+   Object.create cpname_beirut_aas32_rufactory_jep2
+   Object.absolutePosition 867.000/20.000/-187.000
+   Object.rotation 22.000/0.000/0.000
+   Object.setControlPointId 202
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_rufactory_ats]
+   Object.create cpname_beirut_aas32_rufactory_ats
+   Object.absolutePosition 809.000/20.000/-257.000
+   Object.rotation -103.702/0.000/0.000
+   Object.setControlPointId 202
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_rufactory_logiapc]
+   Object.create cpname_beirut_aas32_rufactory_logiapc
+   Object.absolutePosition 878.000/20.000/-193.000
+   Object.rotation 22.000/0.000/0.000
+   Object.setControlPointId 202
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_rufactory_vd]
+   Object.create cpname_beirut_aas32_rufactory_vd
+   Object.absolutePosition 892.889/20.000/-210.513
+   Object.rotation 120.000/0.000/0.000
+   Object.setControlPointId 202
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_rufactory_apc1]
+   Object.create cpname_beirut_aas32_rufactory_apc1
+   Object.absolutePosition 862.000/20.000/-205.000
+   Object.rotation -158.000/0.000/0.000
+   Object.setControlPointId 202
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_rufactory_apc2]
+   Object.create cpname_beirut_aas32_rufactory_apc2
+   Object.absolutePosition 866.000/20.000/-207.000
+   Object.rotation -158.000/0.000/0.000
+   Object.setControlPointId 202
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_rufactory_ifv]
+   Object.create cpname_beirut_aas32_rufactory_ifv
+   Object.absolutePosition 870.000/20.000/-209.000
+   Object.rotation -158.000/0.000/0.000
+   Object.setControlPointId 202
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_ruship_the2]
+   Object.create cpname_beirut_aas32_ruship_the2
+   Object.absolutePosition 839.140/24.287/968.472
+   Object.rotation -97.626/0.000/0.000
+   Object.setControlPointId 203
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_ruship_the3]
+   Object.create cpname_beirut_aas32_ruship_the3
+   Object.absolutePosition 861.260/24.287/959.348
+   Object.rotation -101.319/0.000/0.000
+   Object.setControlPointId 203
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_ruship_cr2]
+   Object.create cpname_beirut_aas32_ruship_cr2
+   Object.absolutePosition 808.399/23.394/957.761
+   Object.rotation 80.494/0.000/0.000
+   Object.setControlPointId 203
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_ruship_boat1]
+   Object.create cpname_beirut_aas32_ruship_boat1
+   Object.absolutePosition 868.737/17.000/961.960
+   Object.rotation 100.009/0.000/0.000
+   Object.setControlPointId 203
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_ruship_boat2]
+   Object.create cpname_beirut_aas32_ruship_boat2
+   Object.absolutePosition 867.618/17.000/969.561
+   Object.rotation 96.773/0.000/0.000
+   Object.setControlPointId 203
+   Object.layer 3
+
+   rem [ObjectSpawner: cpname_beirut_aas32_ruship_acv]
+   Object.create cpname_beirut_aas32_ruship_acv
+   Object.absolutePosition 780.854/31.073/953.879
+   Object.rotation 82.000/0.000/0.000
+   Object.setControlPointId 203
+   Object.layer 3
+
+   rem [ObjectSpawner: common_idf_areaAttack1]
+   Object.create common_idf_areaAttack1
+   Object.absolutePosition -1652.000/19.840/-596.000
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId -1
+   Object.layer 6
+
+   rem [ObjectSpawner: common_idf_areaAttack2]
+   Object.create common_idf_areaAttack2
+   Object.absolutePosition -1648.000/19.840/-620.000
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId -1
+   Object.layer 6
+
+   rem [ObjectSpawner: common_idf_areaAttack3]
+   Object.create common_idf_areaAttack3
+   Object.absolutePosition -1628.000/19.840/-592.000
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId -1
+   Object.layer 6
+
+   rem [ObjectSpawner: common_idf_areaAttack4]
+   Object.create common_idf_areaAttack4
+   Object.absolutePosition -1632.000/19.840/-620.000
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId -1
+   Object.layer 6
+
+   rem [ObjectSpawner: common_ru_areaAttack1]
+   Object.create common_ru_areaAttack1
+   Object.absolutePosition 1964.000/19.840/-836.000
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId -1
+   Object.layer 6
+
+   rem [ObjectSpawner: common_ru_areaAttack2]
+   Object.create common_ru_areaAttack2
+   Object.absolutePosition 1968.000/19.840/-860.000
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId -1
+   Object.layer 6
+
+   rem [ObjectSpawner: common_ru_areaAttack3]
+   Object.create common_ru_areaAttack3
+   Object.absolutePosition 1988.000/19.840/-832.000
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId -1
+   Object.layer 6
+
+   rem [ObjectSpawner: common_ru_areaAttack4]
+   Object.create common_ru_areaAttack4
+   Object.absolutePosition 1984.000/19.840/-860.000
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId -1
+   Object.layer 6
+
+endIf
+
+rem ********** Spawn Points **********
+rem [SpawnPointTemplate: cpname_beirut_aas32_idfmain_1]
+ObjectTemplate.create SpawnPoint cpname_beirut_aas32_idfmain_1
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_aas32_idfmain_1
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 201
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_aas32_idfmain_1]
+Object.create cpname_beirut_aas32_idfmain_1
+Object.absolutePosition -857.000/20.000/-976.000
+Object.rotation -59.722/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: cpname_beirut_aas32_idfmain_2]
+ObjectTemplate.create SpawnPoint cpname_beirut_aas32_idfmain_2
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_aas32_idfmain_2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 201
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_aas32_idfmain_2]
+Object.create cpname_beirut_aas32_idfmain_2
+Object.absolutePosition -907.000/20.000/-885.000
+Object.rotation 153.214/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: cpname_beirut_aas32_idfmain_3]
+ObjectTemplate.create SpawnPoint cpname_beirut_aas32_idfmain_3
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_aas32_idfmain_3
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 201
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_aas32_idfmain_3]
+Object.create cpname_beirut_aas32_idfmain_3
+Object.absolutePosition -902.000/20.000/-885.000
+Object.rotation 174.045/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: cpname_beirut_aas32_idfmain_4]
+ObjectTemplate.create SpawnPoint cpname_beirut_aas32_idfmain_4
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_aas32_idfmain_4
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 201
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_aas32_idfmain_4]
+Object.create cpname_beirut_aas32_idfmain_4
+Object.absolutePosition -900.000/20.000/-882.000
+Object.rotation 89.211/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: cpname_beirut_aas32_idfmain_5]
+ObjectTemplate.create SpawnPoint cpname_beirut_aas32_idfmain_5
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_aas32_idfmain_5
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 201
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_aas32_idfmain_5]
+Object.create cpname_beirut_aas32_idfmain_5
+Object.absolutePosition -936.170/20.877/-912.808
+Object.rotation 71.977/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: cpname_beirut_aas32_idfmain_6]
+ObjectTemplate.create SpawnPoint cpname_beirut_aas32_idfmain_6
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_aas32_idfmain_6
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 201
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_aas32_idfmain_6]
+Object.create cpname_beirut_aas32_idfmain_6
+Object.absolutePosition -944.611/20.850/-905.008
+Object.rotation -89.812/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: cpname_beirut_aas32_idfmain_7]
+ObjectTemplate.create SpawnPoint cpname_beirut_aas32_idfmain_7
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_aas32_idfmain_7
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 201
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_aas32_idfmain_7]
+Object.create cpname_beirut_aas32_idfmain_7
+Object.absolutePosition -947.000/20.000/-912.000
+Object.rotation 177.302/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: cpname_beirut_aas32_idfmain_8]
+ObjectTemplate.create SpawnPoint cpname_beirut_aas32_idfmain_8
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_aas32_idfmain_8
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 201
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_aas32_idfmain_8]
+Object.create cpname_beirut_aas32_idfmain_8
+Object.absolutePosition -937.000/20.000/-906.000
+Object.rotation 7.936/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: cpname_beirut_aas32_idfmain_9]
+ObjectTemplate.create SpawnPoint cpname_beirut_aas32_idfmain_9
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_aas32_idfmain_9
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 201
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_aas32_idfmain_9]
+Object.create cpname_beirut_aas32_idfmain_9
+Object.absolutePosition -950.000/20.000/-984.000
+Object.rotation 8.920/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: cpname_beirut_aas32_idfmain_10]
+ObjectTemplate.create SpawnPoint cpname_beirut_aas32_idfmain_10
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_aas32_idfmain_10
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 201
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_aas32_idfmain_10]
+Object.create cpname_beirut_aas32_idfmain_10
+Object.absolutePosition -852.000/20.000/-890.000
+Object.rotation -85.978/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: cpname_beirut_aas32_idfmain_11]
+ObjectTemplate.create SpawnPoint cpname_beirut_aas32_idfmain_11
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_aas32_idfmain_11
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 201
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_aas32_idfmain_11]
+Object.create cpname_beirut_aas32_idfmain_11
+Object.absolutePosition -852.000/20.000/-940.000
+Object.rotation -56.156/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: cpname_beirut_aas32_rufactory_1]
+ObjectTemplate.create SpawnPoint cpname_beirut_aas32_rufactory_1
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_aas32_rufactory_1
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 202
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_aas32_rufactory_1]
+Object.create cpname_beirut_aas32_rufactory_1
+Object.absolutePosition 845.000/20.000/-205.000
+Object.rotation 55.572/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: cpname_beirut_aas32_rufactory_2]
+ObjectTemplate.create SpawnPoint cpname_beirut_aas32_rufactory_2
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_aas32_rufactory_2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 202
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_aas32_rufactory_2]
+Object.create cpname_beirut_aas32_rufactory_2
+Object.absolutePosition 850.000/20.000/-194.000
+Object.rotation 148.384/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: cpname_beirut_aas32_rufactory_3]
+ObjectTemplate.create SpawnPoint cpname_beirut_aas32_rufactory_3
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_aas32_rufactory_3
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 202
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_aas32_rufactory_3]
+Object.create cpname_beirut_aas32_rufactory_3
+Object.absolutePosition 854.000/20.000/-186.000
+Object.rotation 152.530/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: cpname_beirut_aas32_ruship_6]
+ObjectTemplate.create SpawnPoint cpname_beirut_aas32_ruship_6
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_aas32_ruship_6
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 203
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_aas32_ruship_6]
+Object.create cpname_beirut_aas32_ruship_6
+Object.absolutePosition 811.491/23.435/963.846
+Object.rotation 98.527/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: cpname_beirut_aas32_ruship_7]
+ObjectTemplate.create SpawnPoint cpname_beirut_aas32_ruship_7
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_aas32_ruship_7
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 203
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_aas32_ruship_7]
+Object.create cpname_beirut_aas32_ruship_7
+Object.absolutePosition 810.547/23.435/952.765
+Object.rotation 93.375/0.000/0.000
+Object.layer 3
+
+rem [SpawnPointTemplate: cpname_beirut_aas32_ruship_8]
+ObjectTemplate.create SpawnPoint cpname_beirut_aas32_ruship_8
+ObjectTemplate.activeSafe SpawnPoint cpname_beirut_aas32_ruship_8
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 203
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: cpname_beirut_aas32_ruship_8]
+Object.create cpname_beirut_aas32_ruship_8
+Object.absolutePosition 811.012/23.435/960.652
+Object.rotation 100.332/0.000/0.000
+Object.layer 3
+
+rem ********** Control Points **********
+rem [ControlPointTemplate: cpname_beirut_aas32_idfmain]
+ObjectTemplate.create ControlPoint cpname_beirut_aas32_idfmain
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_aas32_idfmain
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName cpname_beirut_aas32_idfmain
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 201
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.MinimapNameOffset 50/0
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_aas32_rufactory]
+ObjectTemplate.create ControlPoint cpname_beirut_aas32_rufactory
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_aas32_rufactory
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName cpname_beirut_aas32_rufactory
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 202
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.MinimapNameOffset -25/0
+ObjectTemplate.supplyGroupId 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_aas32_ruship]
+ObjectTemplate.create ControlPoint cpname_beirut_aas32_ruship
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_aas32_ruship
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName cpname_beirut_aas32_ruship
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 203
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.MinimapNameOffset -25/0
+ObjectTemplate.supplyGroupId 1
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_aas64_old_town_1]
+ObjectTemplate.create ControlPoint cpname_beirut_aas64_old_town_1
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_aas64_old_town_1
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_aas64_old_town_1
+ObjectTemplate.radius 150
+ObjectTemplate.radiusOffset 0/20/0
+ObjectTemplate.controlPointId 1
+ObjectTemplate.areaValueTeam1 1000
+ObjectTemplate.timeToGetControl 180
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 501
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_aas64_southern_apartments_1]
+ObjectTemplate.create ControlPoint cpname_beirut_aas64_southern_apartments_1
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_aas64_southern_apartments_1
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_aas64_southern_apartments_1
+ObjectTemplate.radius 150
+ObjectTemplate.radiusOffset 0/20/0
+ObjectTemplate.controlPointId 601
+ObjectTemplate.timeToGetControl 180
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 411
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_aas64_western_apartments_1]
+ObjectTemplate.create ControlPoint cpname_beirut_aas64_western_apartments_1
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_aas64_western_apartments_1
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_aas64_western_apartments_1
+ObjectTemplate.radius 150
+ObjectTemplate.radiusOffset 0/20/0
+ObjectTemplate.controlPointId 602
+ObjectTemplate.timeToGetControl 180
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 411
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_aas64_central_apartments_1]
+ObjectTemplate.create ControlPoint cpname_beirut_aas64_central_apartments_1
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_aas64_central_apartments_1
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_aas64_central_apartments_1
+ObjectTemplate.radius 150
+ObjectTemplate.radiusOffset 0/20/0
+ObjectTemplate.controlPointId 603
+ObjectTemplate.timeToGetControl 180
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 311
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_aas64_railyard]
+ObjectTemplate.create ControlPoint cpname_beirut_aas64_railyard
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_aas64_railyard
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_aas64_railyard
+ObjectTemplate.radius 150
+ObjectTemplate.radiusOffset 0/20/0
+ObjectTemplate.controlPointId 604
+ObjectTemplate.timeToGetControl 180
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 311
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_aas64_eastern_apartments]
+ObjectTemplate.create ControlPoint cpname_beirut_aas64_eastern_apartments
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_aas64_eastern_apartments
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_aas64_eastern_apartments
+ObjectTemplate.radius 150
+ObjectTemplate.radiusOffset 0/20/0
+ObjectTemplate.controlPointId 605
+ObjectTemplate.areaValueTeam2 1000
+ObjectTemplate.timeToGetControl 180
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 201
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_aas64_old_town_2]
+ObjectTemplate.create ControlPoint cpname_beirut_aas64_old_town_2
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_aas64_old_town_2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_aas64_old_town_2
+ObjectTemplate.radius 150
+ObjectTemplate.radiusOffset 0/20/0
+ObjectTemplate.controlPointId 701
+ObjectTemplate.areaValueTeam1 1000
+ObjectTemplate.timeToGetControl 180
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 502
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_aas64_western_apartments_2]
+ObjectTemplate.create ControlPoint cpname_beirut_aas64_western_apartments_2
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_aas64_western_apartments_2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_aas64_western_apartments_2
+ObjectTemplate.radius 150
+ObjectTemplate.radiusOffset 0/20/0
+ObjectTemplate.controlPointId 702
+ObjectTemplate.timeToGetControl 180
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 412
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_aas64_southern_apartments_2]
+ObjectTemplate.create ControlPoint cpname_beirut_aas64_southern_apartments_2
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_aas64_southern_apartments_2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_aas64_southern_apartments_2
+ObjectTemplate.radius 150
+ObjectTemplate.radiusOffset 0/22/0
+ObjectTemplate.controlPointId 703
+ObjectTemplate.timeToGetControl 180
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 412
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_aas64_city_center_2]
+ObjectTemplate.create ControlPoint cpname_beirut_aas64_city_center_2
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_aas64_city_center_2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_aas64_city_center_2
+ObjectTemplate.radius 125
+ObjectTemplate.radiusOffset 0/20/0
+ObjectTemplate.controlPointId 704
+ObjectTemplate.timeToGetControl 180
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 302
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_aas64_hotels_2]
+ObjectTemplate.create ControlPoint cpname_beirut_aas64_hotels_2
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_aas64_hotels_2
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_aas64_hotels_2
+ObjectTemplate.radius 100
+ObjectTemplate.radiusOffset 0/20/0
+ObjectTemplate.controlPointId 705
+ObjectTemplate.areaValueTeam2 1000
+ObjectTemplate.timeToGetControl 180
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 212
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_aas64_tv_station]
+ObjectTemplate.create ControlPoint cpname_beirut_aas64_tv_station
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_aas64_tv_station
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_aas64_tv_station
+ObjectTemplate.radius 125
+ObjectTemplate.radiusOffset 0/20/0
+ObjectTemplate.controlPointId 706
+ObjectTemplate.areaValueTeam2 1000
+ObjectTemplate.timeToGetControl 180
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 212
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_aas64_old_town_3]
+ObjectTemplate.create ControlPoint cpname_beirut_aas64_old_town_3
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_aas64_old_town_3
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_aas64_old_town_3
+ObjectTemplate.radius 150
+ObjectTemplate.radiusOffset 0/20/0
+ObjectTemplate.controlPointId 801
+ObjectTemplate.areaValueTeam1 1000
+ObjectTemplate.timeToGetControl 180
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 403
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_aas64_gas_station_3]
+ObjectTemplate.create ControlPoint cpname_beirut_aas64_gas_station_3
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_aas64_gas_station_3
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_aas64_gas_station_3
+ObjectTemplate.radius 150
+ObjectTemplate.radiusOffset 0/25/0
+ObjectTemplate.controlPointId 802
+ObjectTemplate.timeToGetControl 180
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 323
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_aas64_coastal_apartments_3]
+ObjectTemplate.create ControlPoint cpname_beirut_aas64_coastal_apartments_3
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_aas64_coastal_apartments_3
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_aas64_coastal_apartments_3
+ObjectTemplate.radius 125
+ObjectTemplate.radiusOffset 0/28/0
+ObjectTemplate.controlPointId 803
+ObjectTemplate.timeToGetControl 180
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 323
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_aas64_bridge_apartments_3]
+ObjectTemplate.create ControlPoint cpname_beirut_aas64_bridge_apartments_3
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_aas64_bridge_apartments_3
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_aas64_bridge_apartments_3
+ObjectTemplate.radius 150
+ObjectTemplate.radiusOffset 0/25/0
+ObjectTemplate.controlPointId 804
+ObjectTemplate.timeToGetControl 180
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 323
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+rem [ControlPointTemplate: cpname_beirut_aas64_tv_station_3]
+ObjectTemplate.create ControlPoint cpname_beirut_aas64_tv_station_3
+ObjectTemplate.activeSafe ControlPoint cpname_beirut_aas64_tv_station_3
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setControlPointName cpname_beirut_aas64_tv_station_3
+ObjectTemplate.radius 150
+ObjectTemplate.controlPointId 805
+ObjectTemplate.areaValueTeam2 1000
+ObjectTemplate.timeToGetControl 180
+ObjectTemplate.timeToLoseControl 180
+ObjectTemplate.supplyGroupId 203
+ObjectTemplate.hoistMinMax 0.2/0.9
+
+if v_arg1 == host
+
+   rem [ControlPoint: cpname_beirut_aas32_idfmain]
+   Object.create cpname_beirut_aas32_idfmain
+   Object.absolutePosition -840.000/0.000/-880.000
+   Object.layer 3
+
+   rem [ControlPoint: cpname_beirut_aas32_rufactory]
+   Object.create cpname_beirut_aas32_rufactory
+   Object.absolutePosition 925.000/20.000/-320.000
+   Object.layer 3
+
+   rem [ControlPoint: cpname_beirut_aas32_ruship]
+   Object.create cpname_beirut_aas32_ruship
+   Object.absolutePosition 719.018/8.609/961.605
+   Object.layer 3
+
+   rem [ControlPoint: cpname_beirut_aas64_old_town_1]
+   Object.create cpname_beirut_aas64_old_town_1
+   Object.absolutePosition -314.000/0.000/-507.000
+   Object.layer 7
+
+   rem [ControlPoint: cpname_beirut_aas64_southern_apartments_1]
+   Object.create cpname_beirut_aas64_southern_apartments_1
+   Object.absolutePosition 80.000/0.000/-682.000
+   Object.layer 7
+
+   rem [ControlPoint: cpname_beirut_aas64_western_apartments_1]
+   Object.create cpname_beirut_aas64_western_apartments_1
+   Object.absolutePosition 27.000/0.000/-378.000
+   Object.layer 7
+
+   rem [ControlPoint: cpname_beirut_aas64_central_apartments_1]
+   Object.create cpname_beirut_aas64_central_apartments_1
+   Object.absolutePosition 392.000/0.000/-395.000
+   Object.layer 7
+
+   rem [ControlPoint: cpname_beirut_aas64_railyard]
+   Object.create cpname_beirut_aas64_railyard
+   Object.absolutePosition 442.000/0.000/-776.000
+   Object.layer 7
+
+   rem [ControlPoint: cpname_beirut_aas64_eastern_apartments]
+   Object.create cpname_beirut_aas64_eastern_apartments
+   Object.absolutePosition 730.000/0.000/-562.000
+   Object.layer 7
+
+   rem [ControlPoint: cpname_beirut_aas64_old_town_2]
+   Object.create cpname_beirut_aas64_old_town_2
+   Object.absolutePosition -314.000/2.000/-507.000
+   Object.layer 8
+
+   rem [ControlPoint: cpname_beirut_aas64_western_apartments_2]
+   Object.create cpname_beirut_aas64_western_apartments_2
+   Object.absolutePosition 27.000/2.000/-378.000
+   Object.layer 8
+
+   rem [ControlPoint: cpname_beirut_aas64_southern_apartments_2]
+   Object.create cpname_beirut_aas64_southern_apartments_2
+   Object.absolutePosition 229.000/0.000/-591.683
+   Object.layer 8
+
+   rem [ControlPoint: cpname_beirut_aas64_city_center_2]
+   Object.create cpname_beirut_aas64_city_center_2
+   Object.absolutePosition 323.000/0.000/-228.000
+   Object.layer 8
+
+   rem [ControlPoint: cpname_beirut_aas64_hotels_2]
+   Object.create cpname_beirut_aas64_hotels_2
+   Object.absolutePosition 558.000/0.000/-68.000
+   Object.layer 8
+
+   rem [ControlPoint: cpname_beirut_aas64_tv_station]
+   Object.create cpname_beirut_aas64_tv_station
+   Object.absolutePosition 339.000/0.000/126.000
+   Object.layer 8
+
+   rem [ControlPoint: cpname_beirut_aas64_old_town_3]
+   Object.create cpname_beirut_aas64_old_town_3
+   Object.absolutePosition -314.000/4.000/-507.000
+   Object.layer 9
+
+   rem [ControlPoint: cpname_beirut_aas64_gas_station_3]
+   Object.create cpname_beirut_aas64_gas_station_3
+   Object.absolutePosition -640.000/0.000/-144.000
+   Object.layer 9
+
+   rem [ControlPoint: cpname_beirut_aas64_coastal_apartments_3]
+   Object.create cpname_beirut_aas64_coastal_apartments_3
+   Object.absolutePosition -242.000/0.000/69.000
+   Object.layer 9
+
+   rem [ControlPoint: cpname_beirut_aas64_bridge_apartments_3]
+   Object.create cpname_beirut_aas64_bridge_apartments_3
+   Object.absolutePosition 59.000/0.000/-180.000
+   Object.layer 9
+
+   rem [ControlPoint: cpname_beirut_aas64_tv_station_3]
+   Object.create cpname_beirut_aas64_tv_station_3
+   Object.absolutePosition 339.000/2.000/126.000
+   Object.layer 9
+
+endIf
+
+CombatAreaManager.use 1
+CombatAreaManager.timeAllowedOutside 10.000000
+CombatArea.create CombatArea_7_aas64
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint -495.904724/-1024.000000
+CombatArea.addAreaPoint -525.889160/-669.864380
+CombatArea.addAreaPoint -561.964844/-622.026123
+CombatArea.addAreaPoint -678.070190/-549.536499
+CombatArea.addAreaPoint -864.025757/-484.126709
+CombatArea.addAreaPoint -1024.000000/-438.139709
+CombatArea.addAreaPoint -1024.000000/-1024.000000
+CombatArea.team 1
+CombatArea.vehicles 4
+CombatArea.layer 6
+CombatArea.Inverted 1
+
+CombatArea.create CombatArea_7_aas_common
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint 1024.000000/-1024.000000
+CombatArea.addAreaPoint 1024.000000/1024.000000
+CombatArea.addAreaPoint -1024.000000/1024.000000
+CombatArea.addAreaPoint -1024.000000/-1024.000000
+CombatArea.team 0
+CombatArea.vehicles 4
+CombatArea.layer 6
+
+CombatArea.create CombatArea_11_aas_common
+CombatArea.min 0.000000/0.000000
+CombatArea.max 0.000000/0.000000
+CombatArea.addAreaPoint 630.713013/-365.144409
+CombatArea.addAreaPoint 672.837036/-389.964966
+CombatArea.addAreaPoint 922.406982/-472.541138
+CombatArea.addAreaPoint 1023.609253/-500.154053
+CombatArea.addAreaPoint 1021.655640/1021.768921
+CombatArea.addAreaPoint 179.948608/1022.826294
+CombatArea.addAreaPoint 672.135986/427.123047
+CombatArea.addAreaPoint 725.650024/-84.211304
+CombatArea.addAreaPoint 663.851440/-269.644226
+CombatArea.addAreaPoint 639.950562/-319.496521
+CombatArea.addAreaPoint 650.639282/-324.632324
+CombatArea.team 2
+CombatArea.vehicles 4
+CombatArea.layer 6
+CombatArea.Inverted 1
+

@@ -1,0 +1,20 @@
+
+rem ************** LEVEL SPECIFIC AI SETTINGS ***************************
+
+aiSettings.setViewDistance 650
+
+rem *** Init AI using current settings ****
+ai.init 2
+
+rem Set slope so that it includes the 3 steep stairs down to the lower platform
+aiPathfinding.setActiveMap Infantry
+aiPathfinding.map.maxSlope 43
+aiPathfinding.map.addVehicleForClusterCost Infantery
+
+aiPathfinding.setActiveMap Vehicle
+aiPathfinding.map.maxSlope 30
+aiPathfinding.map.addVehicleForClusterCost Tank
+aiPathfinding.map.addVehicleForClusterCost ArmedCar
+aiPathfinding.map.addVehicleForClusterCost LandingCraft
+
+rem ----------------------------------------------------------------------------

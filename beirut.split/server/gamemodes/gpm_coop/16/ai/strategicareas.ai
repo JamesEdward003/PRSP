@@ -1,0 +1,83 @@
+rem *** Create strategic areas ***
+aiStrategicArea.createFromControlPoint cpname_beirut_coop16_alley 3 50
+aiStrategicArea.layer 1
+
+aiStrategicArea.createFromControlPoint cpname_beirut_coop16_apartments 1 50
+aiStrategicArea.layer 1
+
+aiStrategicArea.createFromControlPoint cpname_beirut_coop16_highway 4 50
+aiStrategicArea.layer 1
+
+aiStrategicArea.createFromControlPoint cpname_beirut_coop16_housing 5 50
+aiStrategicArea.layer 1
+
+aiStrategicArea.createFromControlPoint cpname_beirut_coop16_market 2 50
+aiStrategicArea.layer 1
+
+aiStrategicArea.createFromControlPoint cpname_beirut_coop16_park 6 50
+aiStrategicArea.layer 1
+
+aiStrategicArea.createFromControlPoint cpname_beirut_coop16_square 7 50
+aiStrategicArea.layer 1
+
+aiStrategicArea.setActive cpname_beirut_coop16_alley
+AIStrategicArea.addNeighbour cpname_beirut_coop16_highway
+AIStrategicArea.addNeighbour cpname_beirut_coop16_market
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 339.61/20/-427.31
+AIStrategicArea.setOrderPosition Vehicle 349.102/20/-391.267
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 84.8528
+
+aiStrategicArea.setActive cpname_beirut_coop16_apartments
+AIStrategicArea.addNeighbour cpname_beirut_coop16_market
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry -16.3876/20/-367.644
+AIStrategicArea.setOrderPosition Vehicle 7.22473/20/-354.1
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 84.8528
+
+aiStrategicArea.setActive cpname_beirut_coop16_highway
+AIStrategicArea.addNeighbour cpname_beirut_coop16_housing
+AIStrategicArea.addNeighbour cpname_beirut_coop16_alley
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 428.418/20/-305.509
+AIStrategicArea.setOrderPosition Vehicle 436.63/20/-288.531
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 84.8528
+
+aiStrategicArea.setActive cpname_beirut_coop16_housing
+AIStrategicArea.addNeighbour cpname_beirut_coop16_park
+AIStrategicArea.addNeighbour cpname_beirut_coop16_highway
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 419.751/20/-142.234
+AIStrategicArea.setOrderPosition Vehicle 423.64/20/-160.647
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 84.8528
+
+aiStrategicArea.setActive cpname_beirut_coop16_market
+AIStrategicArea.addNeighbour cpname_beirut_coop16_alley
+AIStrategicArea.addNeighbour cpname_beirut_coop16_apartments
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 211.104/20/-347.205
+AIStrategicArea.setOrderPosition Vehicle 228.184/20/-328.232
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 84.8528
+
+aiStrategicArea.setActive cpname_beirut_coop16_park
+AIStrategicArea.addNeighbour cpname_beirut_coop16_square
+AIStrategicArea.addNeighbour cpname_beirut_coop16_housing
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 335.668/20/-38.9435
+AIStrategicArea.setOrderPosition Vehicle 360.437/20/-53.9622
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 70.7107
+
+aiStrategicArea.setActive cpname_beirut_coop16_square
+AIStrategicArea.addNeighbour cpname_beirut_coop16_park
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 255.58/20/110.679
+AIStrategicArea.setOrderPosition Vehicle 253.045/20/102.349
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 84.8528
+

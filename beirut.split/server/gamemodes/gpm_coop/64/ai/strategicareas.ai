@@ -1,0 +1,187 @@
+rem *** Create strategic areas ***
+aiStrategicArea.createFromControlPoint cpname_beirut_coop64_apartments 7 600
+aiStrategicArea.layer 1
+
+aiStrategicArea.createFromControlPoint cpname_beirut_coop64_citycenter 10 400
+aiStrategicArea.layer 1
+
+aiStrategicArea.createFromControlPoint cpname_beirut_coop64_eastcity 5 800
+aiStrategicArea.layer 1
+
+aiStrategicArea.createFromControlPoint cpname_beirut_coop64_gasstation 6 50
+aiStrategicArea.layer 1
+
+aiStrategicArea.createFromControlPoint cpname_beirut_coop64_harbour 1 200
+aiStrategicArea.layer 1
+
+aiStrategicArea.createFromControlPoint cpname_beirut_coop64_idfops 3 50
+aiStrategicArea.layer 1
+
+aiStrategicArea.createFromControlPoint cpname_beirut_coop64_seaside 9 50
+aiStrategicArea.layer 1
+
+aiStrategicArea.createFromControlPoint cpname_beirut_coop64_ship 11 200
+aiStrategicArea.layer 1
+
+aiStrategicArea.createFromControlPoint cpname_beirut_coop64_traindepot 4 50
+aiStrategicArea.layer 1
+
+aiStrategicArea.createFromControlPoint cpname_beirut_coop64_tvstation 8 400
+aiStrategicArea.layer 1
+
+aiStrategicArea.createFromControlPoint cpname_beirut_coop64_westapartments 2 10
+aiStrategicArea.layer 1
+
+aiStrategicArea.setActive cpname_beirut_coop64_apartments
+AIStrategicArea.addNeighbour cpname_beirut_coop64_citycenter
+AIStrategicArea.addNeighbour cpname_beirut_coop64_tvstation
+AIStrategicArea.addNeighbour cpname_beirut_coop64_gasstation
+AIStrategicArea.addNeighbour cpname_beirut_coop64_eastcity
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 417.71/20/-208.685
+AIStrategicArea.setOrderPosition Vehicle 439.351/20/-163.978
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 113.137
+
+aiStrategicArea.setActive cpname_beirut_coop64_citycenter
+AIStrategicArea.addNeighbour cpname_beirut_coop64_seaside
+AIStrategicArea.addNeighbour cpname_beirut_coop64_apartments
+AIStrategicArea.addNeighbour cpname_beirut_coop64_tvstation
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 239.596/20/-66.8137
+AIStrategicArea.setOrderPosition Vehicle 240.421/20/-38.2025
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 113.137
+
+aiStrategicArea.setActive cpname_beirut_coop64_eastcity
+AIStrategicArea.addNeighbour cpname_beirut_coop64_apartments
+AIStrategicArea.addNeighbour cpname_beirut_coop64_traindepot
+AIStrategicArea.addNeighbour cpname_beirut_coop64_gasstation
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 313.605/20/-475.645
+AIStrategicArea.setOrderPosition Vehicle 339.886/20/-471.693
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 141.421
+
+aiStrategicArea.setActive cpname_beirut_coop64_gasstation
+AIStrategicArea.addNeighbour cpname_beirut_coop64_apartments
+AIStrategicArea.addNeighbour cpname_beirut_coop64_eastcity
+AIStrategicArea.addNeighbour cpname_beirut_coop64_traindepot
+AIStrategicArea.addNeighbour cpname_beirut_coop64_idfops
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 605.145/20/-342.774
+AIStrategicArea.setOrderPosition Vehicle 572.172/20/-359.309
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 141.421
+
+aiStrategicArea.setActive cpname_beirut_coop64_harbour
+AIStrategicArea.addNeighbour cpname_beirut_coop64_ship
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry -721.04/20/350.276
+AIStrategicArea.setOrderPosition Vehicle -676.774/20/345.508
+aiStrategicArea.setSide 1
+aiStrategicArea.vehicleSearchRadius 212.132
+
+aiStrategicArea.setActive cpname_beirut_coop64_idfops
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 807.717/20/-662.241
+AIStrategicArea.setOrderPosition Vehicle 818.748/20/-662.842
+aiStrategicArea.setSide 2
+aiStrategicArea.vehicleSearchRadius 28.2843
+
+aiStrategicArea.setActive cpname_beirut_coop64_seaside
+AIStrategicArea.addNeighbour cpname_beirut_coop64_westapartments
+AIStrategicArea.addNeighbour cpname_beirut_coop64_citycenter
+AIStrategicArea.addNeighbour cpname_beirut_coop64_tvstation
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry -2.69977/20/-168.872
+AIStrategicArea.setOrderPosition Vehicle -23.5355/20/-155.168
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 141.421
+
+aiStrategicArea.setActive cpname_beirut_coop64_ship
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 813.885/17/920.877
+AIStrategicArea.setOrderPosition Vehicle 812.865/17/918.947
+aiStrategicArea.setSide 1
+aiStrategicArea.vehicleSearchRadius 42.4264
+
+aiStrategicArea.setActive cpname_beirut_coop64_traindepot
+AIStrategicArea.addNeighbour cpname_beirut_coop64_eastcity
+AIStrategicArea.addNeighbour cpname_beirut_coop64_gasstation
+AIStrategicArea.addNeighbour cpname_beirut_coop64_idfops
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 454.14/20/-701.927
+AIStrategicArea.setOrderPosition Vehicle 422.953/20/-707.096
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 141.421
+
+aiStrategicArea.setActive cpname_beirut_coop64_tvstation
+AIStrategicArea.addNeighbour cpname_beirut_coop64_citycenter
+AIStrategicArea.addNeighbour cpname_beirut_coop64_seaside
+AIStrategicArea.addNeighbour cpname_beirut_coop64_apartments
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 404.685/20/164.212
+AIStrategicArea.setOrderPosition Vehicle 357.557/20/120.764
+aiStrategicArea.setSide 1
+aiStrategicArea.vehicleSearchRadius 197.99
+
+aiStrategicArea.setActive cpname_beirut_coop64_westapartments
+AIStrategicArea.addNeighbour cpname_beirut_coop64_seaside
+AIStrategicArea.addNeighbour cpname_beirut_coop64_harbour
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry -207.535/33.655/60.0093
+AIStrategicArea.setOrderPosition Vehicle -208.076/35.385/22.2538
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 169.706
+
+aiStrategicArea.addWayPoint 420.75/20/-47.2542 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_citycenter
+aiStrategicArea.addWayPoint 309.583/20/-184.479 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_citycenter
+aiStrategicArea.addWayPoint 377.59/20/-141.233 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_citycenter
+aiStrategicArea.addWayPoint 281.336/20/-99.1351 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_citycenter
+aiStrategicArea.addWayPoint 345.124/20/-84.2568 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_citycenter
+aiStrategicArea.addWayPoint 236.063/20/-154.968 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_citycenter
+aiStrategicArea.addWayPoint 267.5/20/-411.997 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_eastcity
+aiStrategicArea.addWayPoint 389.373/20/-391.239 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_eastcity
+aiStrategicArea.addWayPoint 495.159/20/-413.61 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_eastcity
+aiStrategicArea.addWayPoint 465.915/20/-230.442 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_eastcity
+aiStrategicArea.addWayPoint 370.478/20/-212.993 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_eastcity
+aiStrategicArea.addWayPoint 443.578/20/-280.793 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_gasstation
+aiStrategicArea.addWayPoint 522.843/20/-152.805 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_gasstation
+aiStrategicArea.addWayPoint 527.26/20/-147.43 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_gasstation
+aiStrategicArea.addWayPoint 443.492/20/-291.374 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_gasstation
+aiStrategicArea.addWayPoint 367.508/20/-211.201 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_gasstation
+aiStrategicArea.addWayPoint 565.008/20/-45.9755 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_tvstation
+aiStrategicArea.addWayPoint 423.641/20/-91.6533 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_tvstation
+aiStrategicArea.addWayPoint 339.036/20/-95.3719 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_tvstation
+aiStrategicArea.addWayPoint 516.906/20/17.4409 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_tvstation
+aiStrategicArea.addWayPoint 331.782/20/-1.32208 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_tvstation
+aiStrategicArea.addWayPoint 375.732/20/29.4719 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_tvstation
+aiStrategicArea.addWayPoint 567.916/20/-45.0645 Vehicle cpname_beirut_coop64_apartments cpname_beirut_coop64_tvstation
+aiStrategicArea.addWayPoint 250.18/20/-115.737 Vehicle cpname_beirut_coop64_citycenter cpname_beirut_coop64_seaside
+aiStrategicArea.addWayPoint 123.052/20/-11.9147 Vehicle cpname_beirut_coop64_citycenter cpname_beirut_coop64_seaside
+aiStrategicArea.addWayPoint 154.014/20/-71.8686 Vehicle cpname_beirut_coop64_citycenter cpname_beirut_coop64_seaside
+aiStrategicArea.addWayPoint 94.4751/20/25.9677 Vehicle cpname_beirut_coop64_citycenter cpname_beirut_coop64_seaside
+aiStrategicArea.addWayPoint 115.614/20/-30.9482 Vehicle cpname_beirut_coop64_citycenter cpname_beirut_coop64_seaside
+aiStrategicArea.addWayPoint 320.021/20/-54.1843 Vehicle cpname_beirut_coop64_citycenter cpname_beirut_coop64_tvstation
+aiStrategicArea.addWayPoint 234.869/20/9.15356 Vehicle cpname_beirut_coop64_citycenter cpname_beirut_coop64_tvstation
+aiStrategicArea.addWayPoint 209.347/20/156.68 Vehicle cpname_beirut_coop64_citycenter cpname_beirut_coop64_tvstation
+aiStrategicArea.addWayPoint 440.51/20.0049/-468.981 Vehicle cpname_beirut_coop64_eastcity cpname_beirut_coop64_gasstation
+aiStrategicArea.addWayPoint 428.365/20/-307.013 Vehicle cpname_beirut_coop64_eastcity cpname_beirut_coop64_gasstation
+aiStrategicArea.addWayPoint 356.909/20/-630.959 Vehicle cpname_beirut_coop64_eastcity cpname_beirut_coop64_traindepot
+aiStrategicArea.addWayPoint 465.634/20/-582.787 Vehicle cpname_beirut_coop64_eastcity cpname_beirut_coop64_traindepot
+aiStrategicArea.addWayPoint 355.743/20/-611.725 Vehicle cpname_beirut_coop64_eastcity cpname_beirut_coop64_traindepot
+aiStrategicArea.addWayPoint 480.003/20/-593.109 Vehicle cpname_beirut_coop64_eastcity cpname_beirut_coop64_traindepot
+aiStrategicArea.addWayPoint 518.547/20/-541.837 Vehicle cpname_beirut_coop64_gasstation cpname_beirut_coop64_traindepot
+aiStrategicArea.addWayPoint 535.855/20/-493.73 Vehicle cpname_beirut_coop64_gasstation cpname_beirut_coop64_traindepot
+aiStrategicArea.addWayPoint -608.002/33.6472/129.023 Vehicle cpname_beirut_coop64_harbour cpname_beirut_coop64_westapartments
+aiStrategicArea.addWayPoint -195.973/22.125/122.474 Vehicle cpname_beirut_coop64_harbour cpname_beirut_coop64_westapartments
+aiStrategicArea.addWayPoint 90.3361/20/134.933 Vehicle cpname_beirut_coop64_seaside cpname_beirut_coop64_tvstation
+aiStrategicArea.addWayPoint 236.156/20/10.4926 Vehicle cpname_beirut_coop64_seaside cpname_beirut_coop64_tvstation
+aiStrategicArea.addWayPoint -169.179/35.6422/16.0208 Infantry cpname_beirut_coop64_seaside cpname_beirut_coop64_westapartments
+aiStrategicArea.addWayPoint -187.261/35.385/-4.97137 Infantry cpname_beirut_coop64_seaside cpname_beirut_coop64_westapartments
+aiStrategicArea.addWayPoint -243.672/34.7034/-145.363 Infantry cpname_beirut_coop64_seaside cpname_beirut_coop64_westapartments
+aiStrategicArea.addWayPoint 55.0498/35.385/-107.918 Vehicle cpname_beirut_coop64_seaside cpname_beirut_coop64_westapartments
+aiStrategicArea.addWayPoint -252.883/34.705/-153.881 Vehicle cpname_beirut_coop64_seaside cpname_beirut_coop64_westapartments
+aiStrategicArea.addWayPoint 44.9911/35.3916/-116.41 Vehicle cpname_beirut_coop64_seaside cpname_beirut_coop64_westapartments
+aiStrategicArea.addWayPoint -265.52/34.598/-178.302 Vehicle cpname_beirut_coop64_seaside cpname_beirut_coop64_westapartments

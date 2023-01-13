@@ -1,0 +1,35 @@
+rem *********** TriggerTrigger ***********
+
+rem ********** AmbientEffectArea **********
+
+rem ************ AmbientSounds ************
+
+rem [SoundObjectTemplate: S_AmbientDefault_11]
+ObjectTemplate.create Sound S_AmbientDefault_11
+ObjectTemplate.activeSafe Sound S_AmbientDefault_11
+ObjectTemplate.modifiedByUser "marko"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "common/sound/levelambients/sharqi_peninsula/sharqi_peninsula_global_ambience.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.2
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.position 50.456/25.535/-87.418
+ObjectTemplate.minDistance 1500
+ObjectTemplate.soundRadius 1500
+
+Sound.addTrigger S_AmbientDefault_11
+
+if v_arg1 == BF2Editor
+
+Object.create S_AmbientDefault_11
+Object.absolutePosition 50.456/25.535/-87.418
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+endIf
